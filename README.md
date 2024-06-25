@@ -8,9 +8,7 @@
 - The EC2 instance uses a DNS server that I have configured using bind9, as well as an NGINX server. I have also used Certbot to enable HTTPS rather than HTTP.
 - While I am developing the front end, the backend will be shut down to prevent accumulating the cost of uptime on the server.
 - I will also be implementing Lambda functions to automate the server shutdown, which will occur daily from 11:59 PM PST to 7 AM PST to save costs.
-=======
 - The EC2 instance uses a DNS server that I have configured, as well as an NGINX server. I have also used Certbot to enable HTTPS rather than HTTP.
-=======
 - The EC2 instance uses a DNS server that I have configured using bind9, as well as an NGINX server. I have also used Certbot to enable HTTPS rather than HTTP.
 - While I am developing the front end, the backend will be shut down to prevent accumulating the cost of uptime on the server.
 - I will also be implementing Lambda functions to automate the server shutdown, which will occur daily from 12 PM PST to 7 AM PST to save costs.

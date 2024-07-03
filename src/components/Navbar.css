@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-image: url(/src/assets/navbar/NavbarContainer.svg);
+    padding-right: 100px;
+    height: 63px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-sizing:border-box;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.search-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.search-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("/src/assets/navbar/search.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.search-icon-bg {
+    display: inline-block;
+    background-image: url("/src/assets/navbar/searchButtonBG.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:32px;
+    height:32px;
+    position: absolute;
+    z-index: 1;
+}

@@ -4,6 +4,12 @@ html, body {
     width: 100%;
 }
 
+/* --------------- Navbar --------------- */
+
+.navbar a {
+    text-decoration: none;
+}
+
 .navbar {
     background-image: url(/src/assets/navbar/NavbarContainer.svg);
     padding-right: 100px;
@@ -22,6 +28,57 @@ html, body {
     gap: 10px;
 }
 
+/* --------------- Logo --------------- */
+
+
+/* --------------- Home button --------------- */
+
+
+.home-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 75px;
+    height: 31px;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("/src/assets/fonts/Outfit-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home-text {
+    z-index: 2;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Outfit", sans-serif;
+}
+
+.home-button {
+    background-image: url("/src/assets/navbar/navButton.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 75px;
+    height: 31px;
+    z-index: 1;
+}
+
+/* --------------- Posts Button --------------- */
+
+
+
+/* --------------- About Me --------------- */
+
+/* --------------- Contact --------------- */
+
+/* --------------- Search Button --------------- */
+
 .search-link {
     display: flex;
     align-items: center;
@@ -32,7 +89,6 @@ html, body {
 }
 
 .search-icon {
-    display: inline-block;
     width: 20px;
     height: 20px;
     background-image: url("/src/assets/navbar/search.svg");
@@ -41,8 +97,7 @@ html, body {
     z-index: 2;
 }
 
-.search-icon-bg {
-    display: inline-block;
+.search-button {
     background-image: url("/src/assets/navbar/searchButtonBG.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -51,3 +106,5 @@ html, body {
     position: absolute;
     z-index: 1;
 }
+
+/* --------------- Quote --------------- */

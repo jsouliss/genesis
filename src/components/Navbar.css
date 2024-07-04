@@ -4,6 +4,20 @@ html, body {
     width: 100%;
 }
 
+@font-face {
+    font-family: "Outfit";
+    src: url("/src/assets/fonts/Outfit-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Olde English";
+    src: url("/src/assets/fonts/OldeEnglish.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* --------------- Navbar --------------- */
 
 .navbar a {
@@ -12,7 +26,7 @@ html, body {
 
 .navbar {
     background-image: url(/src/assets/navbar/NavbarContainer.svg);
-    padding-right: 100px;
+    padding-left: 50px;
     height: 63px;
     display: flex;
     width: 100%;
@@ -23,16 +37,25 @@ html, body {
 .navbar ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
     margin-left: auto;
     gap: 10px;
+    justify-content: space-between;
 }
 
 /* --------------- Logo --------------- */
 
+.logo {
+    background-image: url(/src/assets/navbar/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 55px;
+    height: 55px;
+}
 
 /* --------------- Home button --------------- */
-
 
 .home-link {
     display: flex;
@@ -43,17 +66,10 @@ html, body {
     height: 31px;
 }
 
-@font-face {
-    font-family: "Outfit";
-    src: url("/src/assets/fonts/Outfit-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 .home-text {
     z-index: 2;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     position: relative;
     font-family: "Outfit", sans-serif;
@@ -71,11 +87,93 @@ html, body {
 
 /* --------------- Posts Button --------------- */
 
+.post-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 75px;
+    height: 31px;
+}
 
+.post-text {
+    z-index: 2;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Outfit", sans-serif;
+}
+
+.post-button {
+    background-image: url("/src/assets/navbar/navButton.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 75px;
+    height: 31px;
+    z-index: 1;
+}
 
 /* --------------- About Me --------------- */
 
+.about-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 75px;
+    height: 31px;
+}
+
+.about-text {
+    z-index: 2;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Outfit", sans-serif;
+}
+
+.about-button {
+    background-image: url("/src/assets/navbar/navButton.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 75px;
+    height: 31px;
+    z-index: 1;
+}
+
 /* --------------- Contact --------------- */
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 75px;
+    height: 31px;
+}
+
+.contact-text {
+    z-index: 2;
+    color: black;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+}
+
+.contact-button {
+    background-image: url("/src/assets/navbar/navButton.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 75px;
+    height: 31px;
+    z-index: 1;
+}
 
 /* --------------- Search Button --------------- */
 
@@ -86,6 +184,8 @@ html, body {
     position: relative;
     width: 32px;
     height: 32px;
+    margin-right: 138px;
+    margin-left: 35px;
 }
 
 .search-icon {
@@ -107,4 +207,30 @@ html, body {
     z-index: 1;
 }
 
-/* --------------- Quote --------------- */
+/* --------------- Sign In Button --------------- */
+
+.signin-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 63px;
+}
+
+.signin-text {
+    z-index: 2;
+    color: black;
+    font-size: 30px;
+    font-family: "Olde English", sans-serif;
+}
+
+.signin-button {
+    background-image: url("/src/assets/navbar/signInButton.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 80px;
+    height: 63px;
+    z-index: 1;
+}

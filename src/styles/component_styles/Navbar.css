@@ -196,6 +196,7 @@ html, body {
     width: 32px;
     height: 32px;
     margin-right: 58px;
+    margin-left: 35px;
 }
 
 .search-icon {
@@ -211,8 +212,8 @@ html, body {
     background-image: url("/src/assets/navbar/searchButtonBG.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width:32px;
-    height:32px;
+    width: 32px;
+    height: 32px;
     position: absolute;
     z-index: 1;
 }

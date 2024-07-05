@@ -26,10 +26,10 @@ html, body {
 
 .navbar {
     background-image: url(/src/assets/navbar/NavbarContainer.svg);
-    padding-left: 50px;
     height: 63px;
     display: flex;
     width: 100%;
+    padding-left: 50px;
     align-items: center;
     box-sizing:border-box;
     overflow-x: auto;
@@ -195,8 +195,7 @@ html, body {
     position: relative;
     width: 32px;
     height: 32px;
-    margin-right: 138px;
-    margin-left: 35px;
+    margin-right: 58px;
 }
 
 .search-icon {

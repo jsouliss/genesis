@@ -1,0 +1,27 @@
+.body {
+
+}
+
+.bg_container {
+    position: relative;
+}
+
+.BG_Square {
+
+    width: 720px;
+    height: 277px;
+}
+
+.portrait_container {
+
+}
+
+.BG_Portrait{
+
+    z-index: 1;
+}
+
+.portrait_img {
+
+    z-index: 2;
+}

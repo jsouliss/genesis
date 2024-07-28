@@ -39,7 +39,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <a href="/signin" className="signin-link">
+      <a href="/signin" className="signin-container">
         <span className="signin-text">G.S.</span>
         <span className="signin-button" />
       </a>

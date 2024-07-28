@@ -38,12 +38,13 @@ html, body {
 @media (max-width: 900px) {
     .navbar {
         width: 100%;
-        overflow: auto;
         white-space: nowrap;
     }
     .navbar ul {
+        width: 100%;
         align-items: center;
         justify-content: flex-start;
+        overflow-x: auto;
     }
 }
 
@@ -220,13 +221,14 @@ html, body {
 
 /* --------------- Sign In Button --------------- */
 
-.signin-link {
+.signin-container {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     width: 80px;
     height: 63px;
+    overflow: hidden;
 }
 
 .signin-text {

@@ -23,26 +23,55 @@
         height: auto;
     }
     .portrait-container {
-        zoom: 0.5;
         align-items: center;
         justify-content: center;
         z-index: 1;
         right: 0;
         top: 0;
     }
-
 }
 
 .portrait-container {
+    padding: 20px;
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
-    right: 80px;
-    top: 15px;
+    transform: translate(0px, -150px);
     z-index: 1;
 }
 
 .portrait-img {
     position: absolute;
+}
+
+/************* Name Tag ****************/
+
+.name-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -150px;
+}
+
+.name-tag-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+}
+
+.name-tag-text {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+}
+
+.name-tag-subtext {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 10px;
 }

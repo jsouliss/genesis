@@ -1,9 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
 @font-face {
     font-family: "Outfit";
     src: url("/src/assets/fonts/Outfit-Regular.ttf") format("truetype");

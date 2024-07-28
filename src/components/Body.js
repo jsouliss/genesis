@@ -7,20 +7,18 @@ import portrait from "../assets/body/Portrait.png";
 const Body = () => {
   return (
     <div className="body">
-      <div className="bg_container">
+      <div className="bg-container">
         {/* eslint-disable-next-line react/jsx-pascal-case */}
-        <BG_Square>
-          <div className="portrait_container">
-            {/* eslint-disable-next-line react/jsx-pascal-case */}
-            <BG_Portrait>
-              <img
-                className="portrait_img"
-                src={require("../assets/body/Portrait.png")}
-                alt={"Gerardo Solis Portrait"}
-              />
-            </BG_Portrait>
-          </div>
-        </BG_Square>
+        <BG_Square />
+        <div className="portrait-container">
+          {/* eslint-disable-next-line react/jsx-pascal-case */}
+          <BG_Portrait />
+          <img
+            className="portrait-img"
+            src={portrait}
+            alt={"Gerardo Solis Portrait"}
+          />
+        </div>
       </div>
     </div>
   );

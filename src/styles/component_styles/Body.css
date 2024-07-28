@@ -1,27 +1,48 @@
 .body {
-
+    align-items: center;
+    justify-content: center;
 }
 
-.bg_container {
+.bg-container {
+    display: flex;
     position: relative;
+    align-items: flex-end;
+    z-index: 0;
 }
 
 .BG_Square {
-
-    width: 720px;
-    height: 277px;
+    position: relative;
 }
 
-.portrait_container {
+@media (max-width: 900px) {
+    .bg-container {
+        align-items: stretch;
+    }
+    .BG_Square {
+        width: 100%;
+        height: auto;
+    }
+    .portrait-container {
+        zoom: 0.5;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        right: 0;
+        top: 0;
+    }
 
 }
 
-.BG_Portrait{
-
+.portrait-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    right: 80px;
+    top: 15px;
     z-index: 1;
 }
 
-.portrait_img {
-
-    z-index: 2;
+.portrait-img {
+    position: absolute;
 }

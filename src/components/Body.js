@@ -4,15 +4,16 @@ import BG_Portrait from "../svg/BG_Portrait";
 import BG_Square from "../svg/BG_Square";
 import portrait from "../assets/body/Portrait.png";
 import { ReactComponent as Name_Tag } from "../assets/body/Name_Tag.svg";
+import { ReactComponent as BG_Square_2 } from "../assets/body/BG_Square_2.svg";
 
 const Body = () => {
   return (
     <div className="body">
-      <div className="bg-container">
+      <bgsquare className="bg-container">
         {/* eslint-disable-next-line react/jsx-pascal-case */}
         <BG_Square />
-      </div>
-      <div className="portrait-container">
+      </bgsquare>
+      <portrait className="portrait-container">
         {/* eslint-disable-next-line react/jsx-pascal-case */}
         <BG_Portrait />
         <img
@@ -20,8 +21,8 @@ const Body = () => {
           src={portrait}
           alt={"Gerardo Solis Portrait"}
         />
-      </div>
-      <div className="name-tag">
+      </portrait>
+      <section className="name-tag">
         <Name_Tag />
         <div className="name-tag-content">
           <div className="name-tag-text">Gerardo Solis</div>
@@ -29,7 +30,10 @@ const Body = () => {
             Software Engineering | Offensive Security | Game Development
           </div>
         </div>
-      </div>
+      </section>
+      <bgsquare className="bg-container-2">
+        <BG_Square_2 />
+      </bgsquare>
     </div>
   );
 };

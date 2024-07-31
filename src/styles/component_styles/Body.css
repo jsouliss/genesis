@@ -11,38 +11,11 @@
     z-index: 0;
 }
 
-.BG_Square {
-    position: relative;
-}
-
 .bg-container-2 {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: flex-end;
-    bottom: 0;
-    right: 0;
-    align-items: center;
-}
-
-.BG_Square_2 {
-
-}
-
-@media (max-width: 900px) {
-    .bg-container {
-        align-items: stretch;
-    }
-    .BG_Square {
-        width: 100%;
-        height: auto;
-    }
-    .portrait-container {
-        align-items: center;
-        justify-content: center;
-        z-index: 1;
-        right: 0;
-        top: 0;
-    }
+    z-index: 0;
 }
 
 .portrait-container {
@@ -88,4 +61,77 @@
     color: white;
     font-family: "Outfit", sans-serif;
     font-size: 10px;
+}
+
+/************* Post ****************/
+.post-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: -85px;
+    gap: 50px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.post-title {
+    position: absolute;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .BG-Square {
+        display: flex;
+        height: 100%;
+    }
+
+    .BG-Square-2 {
+        display: flex;
+        height: 100%;
+    }
+
+    .post-container {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .post {
+        position: relative;
+    }
+    .post-header {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        gap: 210px;
+        top: 0;
+    }
+    .post-title {
+        position: absolute;
+    }
 }

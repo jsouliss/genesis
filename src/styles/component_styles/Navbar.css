@@ -30,6 +30,11 @@
     .navbar ul::-webkit-scrollbar {
         display: none;
     }
+
+    .signin-container {
+        display: none;
+        position: relative;
+    }
 }
 
 .navbar ul {
@@ -211,15 +216,16 @@
 
 .signin-container {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-    position: relative;
-    width: 80px;
-    height: 63px;
+    flex-direction: column;
+    height: 100vh;
     overflow: hidden;
 }
 
 .signin-text {
+    position: absolute;
     z-index: 2;
     color: black;
     font-size: 30px;
@@ -230,7 +236,6 @@
     background-image: url("/src/assets/navbar/signInButton.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
     width: 80px;
     height: 63px;
     z-index: 1;

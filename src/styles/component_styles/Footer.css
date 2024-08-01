@@ -1,7 +1,30 @@
 .footer-container {
     display: flex;
-    position: relative;
-    justify-content: flex-end;
-    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    background-color: #44475A;
+}
+
+.footer-block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+@media (max-width: 900px) {
+    .footer-block-container {
+        flex-direction: column;
+        gap: 25px;
+    }
 }

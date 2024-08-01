@@ -12,6 +12,7 @@
     padding-left: 50px;
     align-items: center;
     box-sizing:border-box;
+    overflow: hidden;
     overflow-x: auto;
 }
 

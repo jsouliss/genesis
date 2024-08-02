@@ -11,7 +11,7 @@
 ---
 - This project involves the development of my personal website.
 - I will be developing everything from the backend to the front end myself.
-- The backend is mostly set up. I am using an EC2 instance with the domain name https://gsoulis.blog.com.
+- The backend is mostly set up. I am using an EC2 instance with the domain name https://gsoulis.blog
 - The EC2 instance uses a DNS server that I have configured using bind9, as well as an NGINX server.
 - I have also used Certbot to enable HTTPS rather than just HTTP for secure connections.
 - Lambda functions and CloudWatch events have been implemented to automate the server shutdown.

@@ -23,9 +23,20 @@
     padding: 15px;
 }
 
-.resume-link {
+.resume-link, .cert-link {
     color: #50fa7b; /* Change this to your desired color */
     text-decoration: none; /* Optional: remove underline */
+}
+
+.horizontal-align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cert-icon, .resume-icon .mention-icon {
+    width: 20px;
+    height: 20px;
 }
 
 .footer-content {

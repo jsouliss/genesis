@@ -27,12 +27,6 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="/contact" className="contact-link">
-            <span className="contact-text">Contact</span>
-            <span className="contact-button" />
-          </a>
-        </li>
-        <li>
           <a href="/search" className="search-link">
             <span className="search-icon" />
             <span className="search-button"></span>

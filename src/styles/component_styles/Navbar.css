@@ -151,36 +151,6 @@
     z-index: 1;
 }
 
-/* --------------- Contact --------------- */
-
-.contact-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 75px;
-    height: 31px;
-}
-
-.contact-text {
-    z-index: 2;
-    color: black;
-    position: relative;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: "Outfit", sans-serif;
-}
-
-.contact-button {
-    background-image: url("/src/assets/navbar/navButton.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 75px;
-    height: 31px;
-    z-index: 1;
-}
-
 /* --------------- Search Button --------------- */
 
 .search-link {

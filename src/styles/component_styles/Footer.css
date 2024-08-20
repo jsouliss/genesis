@@ -54,7 +54,7 @@
 @media (max-width: 900px) {
     .footer-block-container {
         flex-direction: column;
-        gap: 25px;
+        gap: 1px;
     }
 }
 

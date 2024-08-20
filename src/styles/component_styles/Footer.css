@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.footer-block-1 {
+.footer-block {
     display: flex;
     position: relative;
     align-items: center;
@@ -23,7 +23,7 @@
     padding: 15px;
 }
 
-.resume-link, .cert-link {
+ .cert-link, .resume-link, .linkedin-link, .github-link, .instagram-link, .discord-link {
     color: #50fa7b; /* Change this to your desired color */
     text-decoration: none; /* Optional: remove underline */
 }
@@ -34,7 +34,8 @@
     gap: 5px;
 }
 
-.cert-icon, .resume-icon .mention-icon {
+.cert-icon, .resume-icon, .mention-icon, .linkedin-icon,
+.github-icon, .instagram-icon, .discord-icon {
     width: 20px;
     height: 20px;
 }

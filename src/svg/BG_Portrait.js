@@ -1,7 +1,7 @@
 const BG_Portrait = () => {
   return (
     <svg
-      className="BG_Portrait"
+      className="BG-Portrait"
       width="158"
       height="153"
       viewBox="0 0 158 153"

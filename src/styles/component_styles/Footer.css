@@ -1,0 +1,60 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #44475A;
+}
+
+.footer-block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.footer-block {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+ .cert-link, .resume-link, .linkedin-link, .github-link, .instagram-link, .discord-link {
+    color: #50fa7b; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.horizontal-align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cert-icon, .resume-icon, .mention-icon, .linkedin-icon,
+.github-icon, .instagram-icon, .discord-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .footer-block-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+

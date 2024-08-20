@@ -1,23 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-@font-face {
-    font-family: "Outfit";
-    src: url("/src/assets/fonts/Outfit-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Olde English";
-    src: url("/src/assets/fonts/OldeEnglish.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* --------------- Navbar --------------- */
 
 .navbar a {
@@ -32,18 +12,29 @@ html, body {
     padding-left: 50px;
     align-items: center;
     box-sizing:border-box;
+    overflow: hidden;
     overflow-x: auto;
 }
 
 @media (max-width: 900px) {
     .navbar {
         width: 100%;
-        overflow: auto;
         white-space: nowrap;
     }
     .navbar ul {
+        width: 100%;
         align-items: center;
         justify-content: flex-start;
+        overflow-x: auto;
+    }
+
+    .navbar ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    .signin-container {
+        display: none;
+        position: relative;
     }
 }
 
@@ -53,6 +44,10 @@ html, body {
     margin-left: auto;
     gap: 10px;
     justify-content: space-between;
+}
+
+.navbar ul li a:hover {
+    color: black;
 }
 
 /* --------------- Logo --------------- */
@@ -156,36 +151,6 @@ html, body {
     z-index: 1;
 }
 
-/* --------------- Contact --------------- */
-
-.contact-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 75px;
-    height: 31px;
-}
-
-.contact-text {
-    z-index: 2;
-    color: black;
-    position: relative;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: "Outfit", sans-serif;
-}
-
-.contact-button {
-    background-image: url("/src/assets/navbar/navButton.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 75px;
-    height: 31px;
-    z-index: 1;
-}
-
 /* --------------- Search Button --------------- */
 
 .search-link {
@@ -220,16 +185,18 @@ html, body {
 
 /* --------------- Sign In Button --------------- */
 
-.signin-link {
+.signin-container {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-    position: relative;
-    width: 80px;
-    height: 63px;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .signin-text {
+    position: absolute;
     z-index: 2;
     color: black;
     font-size: 30px;
@@ -240,7 +207,6 @@ html, body {
     background-image: url("/src/assets/navbar/signInButton.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
     width: 80px;
     height: 63px;
     z-index: 1;

@@ -27,21 +27,15 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="/contact" className="contact-link">
-            <span className="contact-text">Contact</span>
-            <span className="contact-button" />
-          </a>
-        </li>
-        <li>
           <a href="/search" className="search-link">
             <span className="search-icon" />
             <span className="search-button"></span>
           </a>
         </li>
       </ul>
-      <a href="/signin" className="signin-link">
-        <span className="signin-text">G.S.</span>
+      <a href="/signin" className="signin-container">
         <span className="signin-button" />
+        <span className="signin-text">G.S.</span>
       </a>
     </nav>
   );

@@ -15,11 +15,28 @@
     width: 100%;
 }
 
-.footer-block {
+.footer-block-1 {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     padding: 15px;
+}
+
+.resume-link {
+    color: #50fa7b; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.footer-content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 @media (max-width: 900px) {
@@ -28,3 +45,4 @@
         gap: 25px;
     }
 }
+

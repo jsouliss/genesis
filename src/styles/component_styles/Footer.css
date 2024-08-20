@@ -23,7 +23,12 @@
     padding: 15px;
 }
 
- .cert-link, .resume-link, .linkedin-link, .github-link, .instagram-link, .discord-link {
+ .cert-link, .resume-link, .linkedin-link, .github-link, .instagram-link, .discord-link, .email-text {
+    color: #ff5555; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.cert-link:hover, .resume-link:hover, .linkedin-link:hover, .github-link:hover, .instagram-link:hover, .discord-link:hover {
     color: #50fa7b; /* Change this to your desired color */
     text-decoration: none; /* Optional: remove underline */
 }

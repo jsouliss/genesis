@@ -34,7 +34,7 @@ const Footer = () => {
                   alt="Mention Icon"
                   className="mention-icon"
                 />
-                <text>gsolis5114@gmail.com</text>
+                <text className="email-text">gsolis5114@gmail.com</text>
               </div>
             </div>
             <FooterBlock />

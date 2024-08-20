@@ -36,8 +36,8 @@
 
 .cert-icon, .resume-icon, .mention-icon, .linkedin-icon,
 .github-icon, .instagram-icon, .discord-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .footer-content {
@@ -48,7 +48,7 @@
     color: white;
     font-family: "Outfit", sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 @media (max-width: 900px) {

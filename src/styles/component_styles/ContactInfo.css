@@ -1,0 +1,14 @@
+.certifications-link, .resume-link {
+    color: #50fa7b; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.cert-link:hover, .resume-link:hover {
+    color: #ff5555; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.cert-icon, .resume-icon, .mention-icon {
+    width: 25px;
+    height: 25px;
+}

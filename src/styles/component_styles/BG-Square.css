@@ -1,0 +1,25 @@
+.bg-square-top {
+    display: flex;
+    position: relative;
+}
+
+.bg-square-bottom {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+@media (max-width: 900px) {
+    .BG-Square {
+        display: flex;
+        height: 100%;
+    }
+
+    .BG-Square-2 {
+        display: flex;
+        height: 100%;
+    }
+}

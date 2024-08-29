@@ -1,14 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Body from "../components/Body";
-import Footer from "../components/Footer";
+import PortraitContent from "../components/PortraitContent";
+import PostContent from "../components/PostContent";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <Body />
-      <Footer />
+      <PortraitContent />
+      <PostContent />
     </div>
   );
 };

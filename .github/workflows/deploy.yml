@@ -22,7 +22,6 @@ jobs:
         aws-region: us-west-1
 
     - name: Deploy to EC2 using CodeDeploy
-      uses: aws-actions/aws-code-deploy@v1.0.4
       with:
         application-name: Genesis-WebApp
         deployment-group: Genesis-DeploymentGroup

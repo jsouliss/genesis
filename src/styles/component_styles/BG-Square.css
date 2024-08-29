@@ -1,6 +1,7 @@
 .bg-square-top {
     display: flex;
     position: relative;
+    z-index: -1;
 }
 
 .bg-square-bottom {
@@ -16,6 +17,7 @@
     .BG-Square {
         display: flex;
         height: 100%;
+        z-index: -1;
     }
 
     .BG-Square-2 {

@@ -19,7 +19,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-west-2
+        aws-region: us-west-1
 
     - name: Deploy to EC2 using CodeDeploy
       uses: aws-actions/aws-code-deploy@v1.0.4
@@ -28,3 +28,4 @@ jobs:
         deployment-group: Genesis-DeploymentGroup
         deployment-config-name: CodeDeployDefault.AllAtOnce
         github-token: ${{ secrets.GITHUB_TOKEN }}
+        region: us-west-1

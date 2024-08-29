@@ -6,6 +6,7 @@
     align-items: center;
     width: 100%;
     background-color: #44475A;
+    z-index: 100;
 }
 
 .footer-block {

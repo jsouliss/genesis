@@ -1,0 +1,21 @@
+.horizontal-align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linkedin-icon,
+.github-icon, .instagram-icon, .discord-icon {
+    width: 25px;
+    height: 25px;
+}
+
+ .linkedin-link, .github-link, .instagram-link, .discord-link, .email-text {
+    color: #50fa7b; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+ .linkedin-link:hover, .github-link:hover, .instagram-link:hover, .discord-link:hover {
+    color: #ff5555; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}

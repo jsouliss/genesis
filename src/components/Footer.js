@@ -1,113 +1,57 @@
 import React from "react";
-import "../styles/component_styles/Footer.css";
-import FooterBlock from "../svg/FooterBlock";
+/* icons */
 import Pdf from "../assets/docs/Gerardo-Solis-Resume.pdf";
 import fileIcon from "../assets/footer/file.png";
-import mentionIcon from "../assets/footer/mention.png";
+import mailIcon from "../assets/footer/mention.png";
 import linkedinIcon from "../assets/footer/linkedin.png";
 import githubIcon from "../assets/footer/github.png";
 import instagramIcon from "../assets/footer/instagram.png";
 import discordIcon from "../assets/footer/discord.png";
+/* styles */
+import "../styles/component_styles/Footer.css";
+
+/* components */
+import ContactInfo from "./ContactInfo";
+import FooterBlockComponent from "./FooterBlockComponent";
+import SocialLink from "./SocialLink";
 
 const Footer = () => {
   return (
-    <div className="body">
-      <footer className="footer-container">
-        <div className="footer-block-container">
-          <div className="footer-block">
-            <div className="footer-content">
-              <div className="horizontal-align">
-                <img src={fileIcon} alt="CertIcon" className="cert-icon" />
-                <a href="" target="_blank" className="cert-link">
-                  Certifications
-                </a>
-              </div>
-              <div className="horizontal-align">
-                <img src={fileIcon} alt="Resume Icon" className="resume-icon" />
-                <a href={Pdf} target="_blank" className="resume-link">
-                  Resume
-                </a>
-              </div>
-              <div className="horizontal-align">
-                <img
-                  src={mentionIcon}
-                  alt="Mention Icon"
-                  className="mention-icon"
-                />
-                <text>gsolis5114@gmail.com</text>
-              </div>
-            </div>
-            <FooterBlock />
-          </div>
-          <div className="footer-block">
-            <div className="footer-content">
-              <div className="horizontal-align">
-                <img
-                  src={linkedinIcon}
-                  alt="LinkedIn Icon"
-                  className="linkedin-icon"
-                />
-                <a
-                  href="https://www.linkedin.com/in/gerardosolisit/"
-                  target="_blank"
-                  className="linkedin-link"
-                >
-                  LinkedIn
-                </a>
-              </div>
-              <div className="horizontal-align">
-                <img
-                  src={githubIcon}
-                  alt="Github Icon"
-                  className="github-icon"
-                />
-                <a
-                  href="https://github.com/Sol-Gerardo/"
-                  target="_blank"
-                  className="github-link"
-                >
-                  Github
-                </a>
-              </div>
-            </div>
-            <FooterBlock />
-          </div>
-          <div className="footer-block">
-            <div className="footer-content">
-              <div className="horizontal-align">
-                <img
-                  src={instagramIcon}
-                  alt="Instagram Icon"
-                  className="instagram-icon"
-                />
-                <a
-                  href="https://www.instagram.com/jsoulis_/"
-                  target="_blank"
-                  className="instagram-link"
-                >
-                  Instagram
-                </a>
-              </div>
-              <div className="horizontal-align">
-                <img
-                  src={discordIcon}
-                  alt="discord Icon"
-                  className="discord-icon"
-                />
-                <a
-                  href="https://discordapp.com/users/609820784759799814"
-                  target="_blank"
-                  className="discord-link"
-                >
-                  Discord
-                </a>
-              </div>
-            </div>
-            <FooterBlock />
-          </div>
-        </div>
-      </footer>
-    </div>
+    <footer className="footer-container">
+      <FooterBlockComponent>
+        <ContactInfo icon={fileIcon} text="Certifications" href="" isLink />
+        <ContactInfo icon={fileIcon} text="Resume" href={Pdf} isLink />
+        <ContactInfo icon={mailIcon} text="gsolis5114@gmail.com" />
+      </FooterBlockComponent>
+      <FooterBlockComponent>
+        <SocialLink
+          href="https://www.linkedin.com/in/gerardosolisit/"
+          icon={linkedinIcon}
+          altText={"LinkedIn"}
+          linkText={"LinkedIn"}
+        />
+        <SocialLink
+          href="https://github.com/jsouliss"
+          icon={githubIcon}
+          altText={"GitHub"}
+          linkText={"GitHub"}
+        />
+      </FooterBlockComponent>
+      <FooterBlockComponent>
+        <SocialLink
+          href="https://www.instagram.com/jsoulis_/"
+          icon={instagramIcon}
+          altText={"Instagram"}
+          linkText={"Instagram"}
+        />
+        <SocialLink
+          href="https://discordapp.com/users/609820784759799814"
+          icon={discordIcon}
+          altText={"Discord"}
+          linkText={"Discord"}
+        />
+      </FooterBlockComponent>
+    </footer>
   );
 };
 

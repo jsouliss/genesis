@@ -1,0 +1,45 @@
+/************* Portrait ****************/
+.portrait-container {
+    padding: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0px, -150px);
+    z-index: 1;
+}
+
+.portrait-img {
+    position: absolute;
+}
+
+.name-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -150px;
+}
+
+.name-tag-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+}
+
+/************* Name Tag ****************/
+
+.name-tag-text {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+}
+
+.name-tag-subtext {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+}

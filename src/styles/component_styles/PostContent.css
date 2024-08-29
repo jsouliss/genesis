@@ -1,0 +1,58 @@
+/************* Post ****************/
+.post-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: -85px;
+    gap: 50px;
+    z-index: 1;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.post-title {
+    position: absolute;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .post-container {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        overflow: auto;
+    }
+    .post {
+        position: relative;
+    }
+    .post-header {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        gap: 210px;
+        top: 0;
+    }
+    .post-title {
+        position: absolute;
+    }
+}

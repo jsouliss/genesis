@@ -14,17 +14,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v1
+    - name: Set up SSH agent
+      uses: webfactory/ssh-agent@v0.5.3
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-west-1
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Deploy to EC2 using CodeDeploy
-      with:
-        application-name: Genesis-WebApp
-        deployment-group: Genesis-DeploymentGroup
-        deployment-config-name: CodeDeployDefault.AllAtOnce
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        region: us-west-1
+    - name: Deploy to EC2
+      run: |
+        ssh jerry@gsoulis.blog << 'EOF'
+          ~/scripts/updateSite
+         EOF

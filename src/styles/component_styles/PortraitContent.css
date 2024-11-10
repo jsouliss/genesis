@@ -19,6 +19,7 @@
     justify-content: center;
     position: relative;
     top: -150px;
+    z-index: 1;
 }
 
 .name-tag-content {

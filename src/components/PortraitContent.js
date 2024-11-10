@@ -10,18 +10,20 @@ const PortraitContent = () => {
       <div className="portrait-container">
         {/* eslint-disable-next-line react/jsx-pascal-case */}
         <BG_Portrait />
-        <img
+        {/*
+          <img
           className="portrait-img"
           src={portrait}
           alt={"Gerardo Solis Portrait"}
         />
+        */}
       </div>
       <div className="name-tag">
         <Name_Tag />
         <div className="name-tag-content">
           <div className="name-tag-text">Gerardo Solis</div>
           <div className="name-tag-subtext">
-            Software Engineering | Offensive Security | Game Development
+            Software Engineering | Offensive Security
           </div>
         </div>
       </div>

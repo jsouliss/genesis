@@ -1,5 +1,4 @@
 // src/components/NavBar.js
-
 import React from "react";
 import "../styles/component_styles/Navbar.css";
 import { Link } from "react-router-dom";
@@ -10,7 +9,7 @@ const Navbar = () => {
       <span className="logo" />
       <ul>
         <li>
-          <Link to="/" className="home-link">
+          <Link to="/home" className="home-link">
             <span className="home-text">Home</span>
             <span className="home-button" />
           </Link>

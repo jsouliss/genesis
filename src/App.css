@@ -1,12 +1,10 @@
 html, body {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     background-color: #282A36;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .App {
@@ -17,6 +15,14 @@ html, body {
 
 .content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
 }
 
 @font-face {

@@ -1,11 +1,7 @@
 /* --------------- Navbar --------------- */
-
-.navbar a {
-    text-decoration: none;
-}
-
 .navbar {
     background-image: url(/src/assets/navbar/NavbarContainer.svg);
+    position: fixed;
     height: 63px;
     display: flex;
     width: 100%;
@@ -14,7 +10,11 @@
     box-sizing:border-box;
     overflow: hidden;
     overflow-x: auto;
-    z-index: 1;
+    z-index: 50;
+}
+
+.navbar a {
+    text-decoration: none;
 }
 
 @media (max-width: 900px) {

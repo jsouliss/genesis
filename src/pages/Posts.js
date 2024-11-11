@@ -1,6 +1,7 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
 
-const Posts = () => {
+const Posts = ({ markDownContent }) => {
   return <div></div>;
 };
 

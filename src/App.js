@@ -1,5 +1,10 @@
 /* Routes */
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import Posts from "./pages/Posts";
 import About from "./pages/About";
@@ -19,6 +24,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
+            <Route path={"/"} element={<Navigate to="/home" replace />} />
             <Route path={"home"} element={<Home />} />
             <Route path={"posts"} element={<Posts />} />
             <Route path={"about"} element={<About />} />

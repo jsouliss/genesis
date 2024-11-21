@@ -14,3 +14,5 @@ const PostImage = () => {
     </svg>
   );
 };
+
+export default PostImage;

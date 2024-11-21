@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Posts from "./pages/Posts";
-import PostDetail from "./pages/PostDetails.js";
 import About from "./pages/About";
 /* Components */
 import Navbar from "./components/Navbar";
@@ -28,7 +27,6 @@ function App() {
             <Route path={"/"} element={<Navigate to="/home" replace />} />
             <Route path={"home"} element={<Home />} />
             <Route path={"posts"} element={<Posts />} />
-            <Route path={"posts/:postId"} element={<PostDetail />} />
             <Route path={"about"} element={<About />} />
           </Routes>
         </div>

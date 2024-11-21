@@ -5,6 +5,8 @@ html, body {
     padding: 0;
     background-color: #282A36;
     overflow-x: hidden;
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
 }
 
 .App {

@@ -1,8 +1,15 @@
-import React from "react";
-import ReactMarkdown from "react-markdown";
+import "../styles/component_styles/PostBody.css";
 
-const Posts = ({ markDownContent }) => {
-  return <div></div>;
+import PostBody from "../svg/PostBody";
+import PostDetail from "../svg/PostDetail";
+import PostImage from "../svg/PostImage";
+
+const Post = () => {
+  return (
+    <div className="post-body">
+      <PostBody />
+    </div>
+  );
 };
 
-export default Posts;
+export default Post;

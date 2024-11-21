@@ -1,4 +1,4 @@
-const postBody = () => {
+const PostBody = () => {
   return (
     <svg
       width="822"
@@ -15,4 +15,4 @@ const postBody = () => {
   );
 };
 
-export default postBody;
+export default PostBody;

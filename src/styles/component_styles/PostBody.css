@@ -9,3 +9,13 @@
     margin-top: 100px; /* Adjust this value to push content below the navbar */
     margin-bottom: 50px;
 }
+
+.post-details {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    margin-bottom: 50px;
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+}

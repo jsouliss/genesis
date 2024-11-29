@@ -30,14 +30,14 @@ function App() {
             <Route path={"about"} element={<About />} />
           </Routes>
         </div>
-        <div className="bg-square-top">
-          <BG_Square />
-        </div>
-        <div className="bg-square-bottom">
-          <BG_Square_2 />
-        </div>
-        <Footer classname={"footer"} />
       </Router>
+      <div className="bg-square-top">
+        <BG_Square />
+      </div>
+      <div className="bg-square-bottom">
+        <BG_Square_2 />
+      </div>
+      <Footer classname={"footer"} />
     </div>
   );
 }

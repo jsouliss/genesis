@@ -4,6 +4,7 @@
     justify-content: center;
     z-index: 100;
 }
+
 .footer-block-container {
     align-items: center;
     justify-content: center;
@@ -44,6 +45,7 @@
 .box-quote-container {
     display: flex;
     align-items: center;
+    padding-top: 25px;
 }
 
 .bbox {

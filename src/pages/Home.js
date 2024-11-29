@@ -5,10 +5,12 @@ import "../styles/component_styles/Home.css";
 
 const Home = () => {
   return (
-    <div className={"portrait-content-container"}>
-      <PortraitContent />
+    <>
+      <div className={"portrait-content-container"}>
+        <PortraitContent />
+      </div>
       <PostContent />
-    </div>
+    </>
   );
 };
 

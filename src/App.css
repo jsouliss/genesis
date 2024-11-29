@@ -3,16 +3,16 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #282A36;
-    overflow-x: hidden;
     overscroll-behavior: none;
     scroll-behavior: smooth;
 }
 
 .App {
+    background-color: #282A36;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
 }
 
 .content {

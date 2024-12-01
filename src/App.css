@@ -3,8 +3,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overscroll-behavior: none;
-    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .App {
@@ -20,11 +20,22 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    z-index: 0;
 }
 
 .footer {
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 1100px) {
+    .content {
+        height: 100%;
+        overflow-y: auto;
+    }
 }
 
 @font-face {

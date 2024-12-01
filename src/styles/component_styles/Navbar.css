@@ -7,32 +7,25 @@
     width: 100%;
     padding-left: 50px;
     align-items: center;
-    box-sizing:border-box;
+    box-sizing: border-box;
+    z-index: 1;
     overflow: hidden;
-    overflow-x: auto;
-    z-index: 50;
 }
 
-.navbar a {
-    text-decoration: none;
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .navbar {
         width: 100%;
         white-space: nowrap;
+        padding-left: 50px;
     }
     .navbar ul {
-        width: 100%;
         align-items: center;
         justify-content: flex-start;
         overflow-x: auto;
     }
-
     .navbar ul::-webkit-scrollbar {
         display: none;
     }
-
     .signin-container {
         display: none;
         position: relative;
@@ -43,12 +36,44 @@
     list-style-type: none;
     display: flex;
     margin-left: auto;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
+    padding-right: 50px;
 }
 
-.navbar ul li a:hover {
+.navbar-button {
+    all: unset;
+    background-image: url("/src/assets/navbar/navButton.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 31px;
+    z-index: 1;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 75px;
+    height: 31px;
+    text-decoration: none;
+}
+
+.navbar-text {
+    z-index: 2;
     color: black;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Outfit", sans-serif;
 }
 
 /* --------------- Logo --------------- */
@@ -62,126 +87,12 @@
     flex-shrink: 0;
 }
 
-/* --------------- Home button --------------- */
-
-.home-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 75px;
-    height: 31px;
-}
-
-.home-text {
-    z-index: 2;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    position: relative;
-    font-family: "Outfit", sans-serif;
-}
-
-.home-button {
-    background-image: url("/src/assets/navbar/navButton.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 75px;
-    height: 31px;
-    z-index: 1;
-}
-
-/* --------------- Posts Button --------------- */
-
-.post-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 75px;
-    height: 31px;
-}
-
-.post-text {
-    z-index: 2;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    position: relative;
-    font-family: "Outfit", sans-serif;
-}
-
-.post-button {
-    background-image: url("/src/assets/navbar/navButton.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 75px;
-    height: 31px;
-    z-index: 1;
-}
-
-/* --------------- About Me --------------- */
-
-.about-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 75px;
-    height: 31px;
-}
-
-.about-text {
-    z-index: 2;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    position: relative;
-    font-family: "Outfit", sans-serif;
-}
-
-.about-button {
-    background-image: url("/src/assets/navbar/navButton.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 75px;
-    height: 31px;
-    z-index: 1;
-}
-
 /* --------------- Search Button --------------- */
-
-.search-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 32px;
-    height: 32px;
-    margin-right: 58px;
-    margin-left: 35px;
-}
 
 .search-icon {
     width: 20px;
     height: 20px;
-    background-image: url("/src/assets/navbar/search.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 2;
-}
-
-.search-button {
-    background-image: url("/src/assets/navbar/searchButtonBG.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    z-index: 1;
+    object-fit: contain;
 }
 
 /* --------------- Sign In Button --------------- */
@@ -193,7 +104,6 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden;
 }
 
 .signin-text {
@@ -211,4 +121,5 @@
     width: 80px;
     height: 63px;
     z-index: 1;
+    border: none;
 }

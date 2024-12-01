@@ -7,4 +7,5 @@
   padding-top: 50px;
   box-sizing: border-box;
   margin-top: 225px; /* Adjust this value to push content below the navbar */
+  z-index: 1;
 }

@@ -15,7 +15,8 @@
     text-decoration: none; /* Optional: remove underline */
 }
 
- .linkedin-link:hover, .github-link:hover, .instagram-link:hover, .discord-link:hover {
+ .linkedin-link:hover, .github-link:hover, .instagram-link:hover, .discord-link:hover,
+ .certifications-link:hover {
     color: #ff5555; /* Change this to your desired color */
     text-decoration: none; /* Optional: remove underline */
 }

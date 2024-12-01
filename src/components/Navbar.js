@@ -1,6 +1,7 @@
 // src/components/NavBar.js
 import React from "react";
 import "../styles/component_styles/Navbar.css";
+import searchIcon from "../assets/navbar/search.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -9,32 +10,36 @@ const Navbar = () => {
       <span className="logo" />
       <ul>
         <li>
-          <Link to="/home" className="home-link">
-            <span className="home-text">Home</span>
-            <span className="home-button" />
+          <Link to="/home" className="navbar-link">
+            <button className="navbar-button">
+              <span className={"navbar-text"}>Home</span>
+            </button>
           </Link>
         </li>
         <li>
-          <Link to="/posts" className="post-link">
-            <span className="post-text">Posts</span>
-            <span className="post-button" />
+          <Link to="/posts" className="navbar-link">
+            <button className="navbar-button">
+              <span className={"navbar-text"}>Posts</span>
+            </button>
           </Link>
         </li>
         <li>
-          <Link to="/about" className="about-link">
-            <span className="about-text">About Me</span>
-            <span className="about-button" />
+          <Link to="/about" className="navbar-link">
+            <button className="navbar-button">
+              <span className={"navbar-text"}>About Me</span>
+            </button>
           </Link>
         </li>
         <li>
-          <Link to="/search" className="search-link">
-            <span className="search-icon" />
-            <span className="search-button"></span>
+          <Link to="/search" className="navbar-link">
+            <button className="navbar-button">
+              <img className={"search-icon"} src={searchIcon} alt="search" />
+            </button>
           </Link>
         </li>
       </ul>
       <Link to="/signin" className="signin-container">
-        <span className="signin-button" />
+        <button className="signin-button" />
         <span className="signin-text">G.S.</span>
       </Link>
     </nav>

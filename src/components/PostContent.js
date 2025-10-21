@@ -8,14 +8,7 @@ const PostContent = () => {
     <div className="post-container">
       <div className="post">
         <div className="post-header">
-          <div className="post-title">Malware Analysis</div>
-          <BoxHeader />
-        </div>
-        <BoxBody />
-      </div>
-      <div className="post">
-        <div className="post-header">
-          <div className="post-title">Malware Development</div>
+          <div className="post-title">Cybersecurity</div>
           <BoxHeader />
         </div>
         <BoxBody />

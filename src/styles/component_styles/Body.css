@@ -1,0 +1,19 @@
+@keyframes float {
+    0% {
+        tranform: translate(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.Body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    animation: float 6s ease-in-out infinite; 
+    z-index: 1;
+}
+

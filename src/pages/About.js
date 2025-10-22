@@ -1,11 +1,11 @@
 import React from "react";
-import Body from "../svg/Body"
-import "../styles/component_styles/Body.css"
+import BodyContent from "../components/BodyContent"
+import "../styles/Body.css"
 
 const About = () => {
   return (
-    <div className="Body">
-      <Body />
+    <div className="body-container">
+      <BodyContent/>
     </div>
   );
 };

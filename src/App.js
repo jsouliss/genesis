@@ -15,7 +15,7 @@ import BG_Square from "./svg/BG_Square";
 import Footer from "./components/Footer";
 /* Styles*/
 import "./App.css";
-import "./styles/component_styles/BG-Square.css";
+import "./styles/BG-Square.css";
 
 function App() {
   return (

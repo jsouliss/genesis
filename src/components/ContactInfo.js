@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/component_styles/ContactInfo.css";
+import "../styles/ContactInfo.css";
 
 const ContactInfo = ({ icon, text, href, isLink }) => {
   return (

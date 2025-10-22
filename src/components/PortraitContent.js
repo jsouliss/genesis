@@ -2,7 +2,7 @@ import React from "react";
 import BG_Portrait from "../svg/BG_Portrait";
 import portrait from "../assets/body/Portrait.png";
 import { ReactComponent as Name_Tag } from "../assets/body/Name_Tag.svg";
-import "../styles/component_styles/PortraitContent.css";
+import "../styles/PortraitContent.css";
 
 const PortraitContent = () => {
   return (

@@ -1,0 +1,25 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.title-text {
+    position: absolute;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+.title-text h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.desc-text {
+    margin-left: -300px;
+    text-align: left;
+    font-size: 14px;
+    max-width: 300px;
+}

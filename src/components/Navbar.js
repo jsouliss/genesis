@@ -1,6 +1,6 @@
 // src/components/NavBar.js
 import React from "react";
-import "../styles/component_styles/Navbar.css";
+import "../styles/Navbar.css";
 import searchIcon from "../assets/navbar/search.svg";
 import { Link } from "react-router-dom";
 

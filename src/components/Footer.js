@@ -8,7 +8,7 @@ import githubIcon from "../assets/footer/github.png";
 import instagramIcon from "../assets/footer/instagram.png";
 import discordIcon from "../assets/footer/discord.png";
 /* styles */
-import "../styles/component_styles/Footer.css";
+import "../styles/Footer.css";
 
 /* svg */
 import BBoxQuote from "../svg/BBoxQuote";

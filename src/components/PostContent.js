@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactComponent as BoxBody } from "../assets/body/BoxBody.svg";
 import { ReactComponent as BoxHeader } from "../assets/body/BoxHeader.svg";
-import "../styles/component_styles/PostContent.css";
+import "../styles/PostContent.css";
 
 const PostContent = () => {
   return (

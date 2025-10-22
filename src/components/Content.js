@@ -1,4 +1,4 @@
-import React from "react";
+import Reactfunc  from "react";
 
 const Content = () => {
     return (

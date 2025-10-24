@@ -1,6 +1,5 @@
 import React from "react";
 import BG_Portrait from "../svg/BG_Portrait";
-import portrait from "../assets/body/Portrait.png";
 import { ReactComponent as Name_Tag } from "../assets/body/Name_Tag.svg";
 import "../styles/PortraitContent.css";
 
@@ -12,7 +11,7 @@ const PortraitContent = () => {
         <BG_Portrait />
         <img
           className="portrait-img"
-          src={portrait}
+          src={"https://gsoulis-assets.s3.us-west-1.amazonaws.com/Jerry_Solis.jpeg"}
           alt={"Gerardo Solis Portrait"}
         />
       </div>

@@ -20,7 +20,7 @@ const PortraitContent = () => {
         <div className="name-tag-content">
           <div className="name-tag-text">Gerardo Solis</div>
           <div className="name-tag-subtext">
-            Software Engineering | Offensive Security
+            Cybersecurity | Software Engineering
           </div>
         </div>
       </div>

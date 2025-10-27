@@ -11,7 +11,7 @@
 }
 
  .linkedin-link, .github-link, .instagram-link, .discord-link, .email-text {
-    color: #50fa7b; /* Change this to your desired color */
+    color: #50fa7b;
     text-decoration: none; /* Optional: remove underline */
 }
 

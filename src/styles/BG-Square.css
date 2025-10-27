@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
     width: fit-content;
     height: fit-content;
     overflow: hidden;
@@ -25,10 +25,10 @@
 @media (max-width: 1100px) {
     .bg-square-top {
         display: flex;
+        position: fixed;
         top: 0;
-        position: absolute;
-        height: auto;
-        z-index: 0;
+        left: 0;
+        z-index: 1;
     }
 
     .bg-square-bottom {
@@ -36,6 +36,6 @@
         position: fixed;
         right: 0;
         bottom: 0;
-        z-index: -1;
+        z-index: 0;
     }
 }

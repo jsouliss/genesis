@@ -31,7 +31,7 @@ const Footer = () => {
           </FooterBlockComponent>
           <FooterBlockComponent>
             <SocialLink
-              href="https://www.linkedin.com/in/gerardosolisit/"
+              href="https://www.linkedin.com/in/gsoulis/"
               icon={linkedinIcon}
               altText={"LinkedIn"}
               linkText={"LinkedIn"}

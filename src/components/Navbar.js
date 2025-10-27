@@ -40,10 +40,16 @@ const Navbar = () => {
         </li>
         */}
       </ul>
+        { /*
       <Link to="/signin" className="signin-container">
         <button className="signin-button" />
         <span className="signin-text">G.S.</span>
       </Link>
+      */ }
+      <div className="signin-container">
+        <button className="signin-button" />
+        <span className="signin-text">G.S.</span>
+      </div>
     </nav>
   );
 };

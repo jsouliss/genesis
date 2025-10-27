@@ -53,7 +53,6 @@
     height: 31px;
     z-index: 1;
     cursor: pointer;
-    border-radius: none;
     outline: none;
 }
 
@@ -116,6 +115,7 @@
     color: black;
     font-size: 30px;
     font-family: "Olde English", sans-serif;
+    user-select: none;
 }
 
 .signin-button {

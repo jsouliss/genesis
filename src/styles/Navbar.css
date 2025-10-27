@@ -53,8 +53,12 @@
     height: 31px;
     z-index: 1;
     cursor: pointer;
-    border: none;
+    border-radius: none;
     outline: none;
+}
+
+.navbar-button:active {
+    transform: scale(0.95);
 }
 
 .navbar-link {

@@ -30,13 +30,15 @@ const Navbar = () => {
             </button>
           </Link>
         </li>
+          { /*
         <li>
-          <Link to="/search" className="navbar-link">
+            <Link to="/search" className="navbar-link">
             <button className="navbar-button">
               <img className={"search-icon"} src={searchIcon} alt="search" />
             </button>
           </Link>
         </li>
+        */}
       </ul>
       <Link to="/signin" className="signin-container">
         <button className="signin-button" />

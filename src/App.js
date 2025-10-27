@@ -20,11 +20,11 @@ import "./styles/BG-Square.css";
 function App() {
   return (
     <div className="App">
-        <div className="bg-square-top">
-            <BG_Square />
-        </div>
       <Router>
-        <Navbar />
+          <Navbar />
+          <div className="bg-square-top">
+              <BG_Square />
+          </div>
         <div className="content">
           <Routes>
             <Route path={"/"} element={<Navigate to="/home" replace />} />
@@ -33,11 +33,11 @@ function App() {
             <Route path={"about"} element={<About />} />
           </Routes>
         </div>
+          <div className="bg-square-bottom">
+              <BG_Square_2 />
+          </div>
+          <Footer classname={"footer"} />
       </Router>
-        <div className="bg-square-bottom">
-            <BG_Square_2 />
-        </div>
-      <Footer classname={"footer"} />
     </div>
   );
 }

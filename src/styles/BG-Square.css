@@ -22,7 +22,6 @@
     pointer-events: none;
 }
 
-
 @media (max-width: 1100px) {
     .bg-square-top {
         display: flex;

@@ -10,12 +10,12 @@ import Posts from "./pages/Posts";
 import About from "./pages/About";
 /* Components */
 import Navbar from "./components/Navbar";
-import BG_Square_2 from "./svg/BG_Square_2";
-import BG_Square from "./svg/BG_Square";
+import Bg_Square_Top from "./svg/Bg_Square_Top";
+import Bg_Square_Bottom from "./svg/Bg_Square_Bottom";
 import Footer from "./components/Footer";
 /* Styles*/
 import "./styles/App.css";
-import "./styles/BG-Square.css";
+import "./styles/Bg-Square.css";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       <Router>
           <Navbar />
           <div className="bg-square-top">
-              <BG_Square />
+              <Bg_Square_Top />
           </div>
         <div className="content">
           <Routes>
@@ -34,7 +34,7 @@ function App() {
           </Routes>
         </div>
           <div className="bg-square-bottom">
-              <BG_Square_2 />
+              <Bg_Square_Bottom />
           </div>
           <Footer classname={"footer"} />
       </Router>

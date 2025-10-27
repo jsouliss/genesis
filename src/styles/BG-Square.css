@@ -1,9 +1,9 @@
 .bg-square-top {
     display: flex;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
+    top: 0;
+    left: 0;
+    z-index: 0;
     width: fit-content;
     height: fit-content;
     overflow: hidden;
@@ -13,14 +13,13 @@
 .bg-square-bottom {
     display: flex;
     position: fixed;
-    right: 0px;
-    bottom: 0px;
-    z-index: -2;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
     width: fit-content;
     height: fit-content;
     overflow: hidden;
     pointer-events: none;
-    max-height: 45%;
 }
 
 

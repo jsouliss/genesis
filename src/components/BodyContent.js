@@ -1,22 +1,19 @@
 import React from "react";
 import Body from "../svg/Body"
+import Content from "./Content"
 import "../styles/BodyContent.css"
 
 const BodyContent = () => {
     return (
-            <div className="body-container">
-                <div className={"body-contents"}>
-                    <div className={"title-text"}>
-                        <h1>About Me</h1>
-                    </div>
-                    {/*
-                    <div className={"desc-text"}>
-                        <p>Description</p>
-                    </div>
-                    */}
-                    <Body/>
-                </div>
+        <div className="body-container">
+            <Body/>
+            <div className={"content-wrapper"}>
+                <h1 className={"title-text"}>About Me</h1>
+                <p className={"desc-text"}>
+                    <Content/>
+                </p>
             </div>
+        </div>
     );
 };
 

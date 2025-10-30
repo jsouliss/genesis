@@ -12,50 +12,29 @@
 
 .body-container {
     position: relative;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     animation: float 6s ease-in-out infinite;
-    z-index: 1;
 }
 
-.body-contents{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 40px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
 
 .title-text {
-    position: absolute;
-    top: 0;
-    color: white;
-    font-family: "Outfit", sans-serif;
-}
-
-/*
-@media (max-width: 1100px) {
-    .body-container {
-        white-space: nowrap;
-        height: 100%;
-        width: 100%;
-        overflow-x:hidden;
-    }
-}
-
-
-
-.title-text h1 {
+    margin: 40px 0 20px 0;
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 100px;
 }
 
 .desc-text {
-    margin-left: -300px;
+    margin: 40px 40px 40px 40px;
     text-align: left;
-    font-size: 14px;
-    max-width: 300px;
 }
-*/

@@ -1,6 +1,8 @@
 import React from "react";
 import Body from "../svg/Body"
 import Content from "./Content"
+
+import "../styles/Body.css"
 import "../styles/BodyContent.css"
 
 const BodyContent = () => {

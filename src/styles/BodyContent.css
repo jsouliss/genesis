@@ -11,22 +11,26 @@
 }
 
 .body-container {
+    width: 100%;
     position: relative;
     display: inline-block;
     animation: float 6s ease-in-out infinite;
 }
 
 .content-wrapper {
-    position: absolute;
     top: 0;
     left: 0;
-    right: 40px;
     color: white;
     height: 100%;
     width: 100%;
+    position: absolute;
     font-family: "Outfit", sans-serif;
     overflow-y: auto; /* Enable vertical scrolling */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.content-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .title-text {

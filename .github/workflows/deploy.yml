@@ -22,7 +22,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY}}
-          port: ${{ secrets.PORT }}
           script: |
             cd ~/genesis
             git pull origin ${{ github.ref_name }}

@@ -1,4 +1,4 @@
-import "../styles/component_styles/PostBody.css";
+import "../styles/PostBody.css";
 
 import PostBody from "../svg/PostBody";
 import PostDetail from "../svg/PostDetail";

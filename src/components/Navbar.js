@@ -1,6 +1,6 @@
 // src/components/NavBar.js
 import React from "react";
-import "../styles/component_styles/Navbar.css";
+import "../styles/Navbar.css";
 import searchIcon from "../assets/navbar/search.svg";
 import { Link } from "react-router-dom";
 
@@ -30,18 +30,26 @@ const Navbar = () => {
             </button>
           </Link>
         </li>
+          { /*
         <li>
-          <Link to="/search" className="navbar-link">
+            <Link to="/search" className="navbar-link">
             <button className="navbar-button">
               <img className={"search-icon"} src={searchIcon} alt="search" />
             </button>
           </Link>
         </li>
+        */}
       </ul>
+        { /*
       <Link to="/signin" className="signin-container">
         <button className="signin-button" />
         <span className="signin-text">G.S.</span>
       </Link>
+      */ }
+      <div className="signin-container">
+        <button className="signin-button" />
+        <span className="signin-text">G.S.</span>
+      </div>
     </nav>
   );
 };

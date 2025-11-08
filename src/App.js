@@ -10,18 +10,21 @@ import Posts from "./pages/Posts";
 import About from "./pages/About";
 /* Components */
 import Navbar from "./components/Navbar";
-import BG_Square_2 from "./svg/BG_Square_2";
-import BG_Square from "./svg/BG_Square";
+import Bg_Square_Top from "./svg/Bg_Square_Top";
+import Bg_Square_Bottom from "./svg/Bg_Square_Bottom";
 import Footer from "./components/Footer";
 /* Styles*/
-import "./App.css";
-import "./styles/component_styles/BG-Square.css";
+import "./styles/App.css";
+import "./styles/Bg-Square.css";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+          <Navbar />
+          <div className="bg-square-top">
+              <Bg_Square_Top />
+          </div>
         <div className="content">
           <Routes>
             <Route path={"/"} element={<Navigate to="/home" replace />} />
@@ -29,15 +32,12 @@ function App() {
             <Route path={"posts"} element={<Posts />} />
             <Route path={"about"} element={<About />} />
           </Routes>
-          <div className="bg-square-top">
-            <BG_Square />
-          </div>
-          <div className="bg-square-bottom">
-            <BG_Square_2 />
-          </div>
         </div>
+          <div className="bg-square-bottom">
+              <Bg_Square_Bottom />
+          </div>
+          <Footer classname={"footer"} />
       </Router>
-      <Footer classname={"footer"} />
     </div>
   );
 }

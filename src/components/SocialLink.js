@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/component_styles/SocialInfo.css";
+import "../styles/SocialInfo.css";
 
 const SocialLink = ({ href, icon, altText, linkText }) => {
   return (

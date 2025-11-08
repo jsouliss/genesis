@@ -1,8 +1,12 @@
 import React from "react";
-import "../styles/component_styles/ContactInfo.css";
+import "../styles/ContactInfo.css";
 
 const ContactInfo = ({ icon, text, href, isLink }) => {
-  return (
+    function handleEmailClick(text) {
+        navigator.clipboard.writeText(text)
+    }
+
+    return (
     <div className="horizontal-align">
       <img
         src={icon}
@@ -19,7 +23,9 @@ const ContactInfo = ({ icon, text, href, isLink }) => {
           {text}
         </a>
       ) : (
-        <span className={"email-text"}>{text}</span>
+        <span className={"email-text"} onClick={() => handleEmailClick(text)}>
+            {text}
+        </span>
       )}
     </div>
   );

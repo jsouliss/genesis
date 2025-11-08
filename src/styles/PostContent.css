@@ -1,4 +1,17 @@
 /************* Post ****************/
+
+@keyframes float {
+    0% { /* Original position */
+        transform: translate(0px);
+    }
+    50% { /* Move box up 20px */
+        transform: translateY(-20px);
+    }
+    100% { /* Back to original position */
+        transform: translateY(0px);
+    }
+}
+
 .post-container {
     display: flex;
     position: relative;
@@ -7,6 +20,7 @@
     top: -85px;
     gap: 50px;
     z-index: 1;
+    animation:float 6s ease-in-out infinite;
 }
 
 .post {
@@ -14,7 +28,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1;
 }
 
 .post-header {

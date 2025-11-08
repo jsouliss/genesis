@@ -48,3 +48,15 @@
 - The site will feature all projects I have worked on that I have not yet posted or shared, as well as projects I am currently working on.
 
 - Thank you, and I hope you enjoy your stay :D
+
+<br>
+
+---
+
+<br>
+
+
+- Home page preview:
+
+![Homepage Screenshot](./src/assets/images/Home-Page_v2.png)
+

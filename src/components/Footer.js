@@ -1,6 +1,5 @@
 import React from "react";
 /* icons */
-import Pdf from "../assets/docs/Gerardo-Solis-Resume.pdf";
 import fileIcon from "../assets/footer/file.png";
 import mailIcon from "../assets/footer/mention.png";
 import linkedinIcon from "../assets/footer/linkedin.png";
@@ -8,7 +7,7 @@ import githubIcon from "../assets/footer/github.png";
 import instagramIcon from "../assets/footer/instagram.png";
 import discordIcon from "../assets/footer/discord.png";
 /* styles */
-import "../styles/component_styles/Footer.css";
+import "../styles/Footer.css";
 
 /* svg */
 import BBoxQuote from "../svg/BBoxQuote";
@@ -25,12 +24,14 @@ const Footer = () => {
         <footer className="footer-block-container">
           <FooterBlockComponent>
             <ContactInfo icon={fileIcon} text="Certifications" href="" isLink />
-            <ContactInfo icon={fileIcon} text="Resume" href={Pdf} isLink />
+            <ContactInfo icon={fileIcon} text="Resume" href={"https://gsoulis-assets.s3.us-west-1.amazonaws.com/Gerardo_S_Resume_Redact.pdf"} isLink />
+
             <ContactInfo icon={mailIcon} text="gsolis5114@gmail.com" />
+
           </FooterBlockComponent>
           <FooterBlockComponent>
             <SocialLink
-              href="https://www.linkedin.com/in/gerardosolisit/"
+              href="https://www.linkedin.com/in/gsoulis/"
               icon={linkedinIcon}
               altText={"LinkedIn"}
               linkText={"LinkedIn"}
@@ -60,7 +61,7 @@ const Footer = () => {
             <div className={"bbox"}>
               <BBoxQuote />
               <span className="box-text">
-                “Its cold out there, take a sweater”
+                  Trust the Process
               </span>
             </div>
           </div>

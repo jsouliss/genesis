@@ -3,9 +3,10 @@
     text-decoration: none; /* Optional: remove underline */
 }
 
-.cert-link:hover, .resume-link:hover {
+.cert-link:hover, .resume-link:hover, .email-text:hover {
     color: #ff5555; /* Change this to your desired color */
     text-decoration: none; /* Optional: remove underline */
+    cursor: pointer;
 }
 
 .cert-icon, .resume-icon, .mention-icon {

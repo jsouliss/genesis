@@ -1,7 +1,7 @@
 import React from "react";
 import PortraitContent from "../components/PortraitContent";
 import PostContent from "../components/PostContent";
-import "../styles/component_styles/Home.css";
+import "../styles/Home.css";
 
 const Home = () => {
   return (

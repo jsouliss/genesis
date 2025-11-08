@@ -11,22 +11,28 @@
 }
 
 .body-container {
-    width: 100%;
     position: relative;
     display: inline-block;
     animation: float 6s ease-in-out infinite;
 }
 
+.body-container svg {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes inline spacing - Eliminates the extra whitespace below the SVG
+        Makes it a block element - SVG takes up the full width of its container */
+}
+
 .content-wrapper {
     top: 0;
     left: 0;
-    color: white;
-    height: 100%;
     width: 100%;
-    position: absolute;
-    font-family: "Outfit", sans-serif;
+    height: 100%;
+    color: white;
     overflow-y: auto; /* Enable vertical scrolling */
+    position: absolute;
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    font-family: "Outfit", sans-serif;
 }
 
 .content-wrapper::-webkit-scrollbar {
@@ -36,9 +42,11 @@
 .title-text {
     margin: 40px 0 20px 0;
     text-align: center;
+    font-size: clamp(24px, 5vw, 36px); /* Responsive font size - min, 5% font scale, max */
 }
 
 .desc-text {
-    margin: 40px 40px 40px 40px;
+    margin: 5% 10%;
     text-align: left;
+    font-size: clamp(14px, 2vw, 16px); /* Responsive font size - min, 2% font scale, max */
 }

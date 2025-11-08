@@ -1,0 +1,32 @@
+name: genesis-ec2-deploy 
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Connect Tailscale
+        uses: tailscale/github-action@v4.1.0
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+    
+      - name: SSH Remote Commands
+        uses: appleboy/ssh-action@v1.2.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY}}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd ~/genesis
+            git pull origin ${{ github.ref_name }}
+            npm install 
+            npm run build
+            sudo cp -r build/* /var/www/gsoulis.blog/html/
+            sudo systemctl restart nginx

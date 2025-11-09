@@ -26,7 +26,7 @@ const Footer = () => {
             <ContactInfo icon={fileIcon} text="Certifications" href="" isLink />
             <ContactInfo icon={fileIcon} text="Resume" href={"https://gsoulis-assets.s3.us-west-1.amazonaws.com/Gerardo_S_Resume_Redact.pdf"} isLink />
 
-            <ContactInfo icon={mailIcon} text="gsolis5114@gmail.com" />
+            <ContactInfo icon={mailIcon} text="jsoulis@pm.me" />
 
           </FooterBlockComponent>
           <FooterBlockComponent>

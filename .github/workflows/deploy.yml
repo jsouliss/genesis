@@ -27,5 +27,4 @@ jobs:
             git pull origin ${{ github.ref_name }}
             npm install 
             npm run build
-            sudo cp -r build/* /var/www/gsoulis.blog/html/
-            sudo systemctl restart nginx
+            sudo /usr/local/bin/deploy-website

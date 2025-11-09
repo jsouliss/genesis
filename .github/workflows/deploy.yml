@@ -21,10 +21,12 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY}}
+          key: ${{ secrets.KEY }}
           script: |
             cd ~/genesis
             git pull origin ${{ github.ref_name }}
+            export NVM_DIR=/home/${{ secrets.USERNAME }}/.nvm
+            source /home/${{ secrets.USERNAME }}/.nvm/nvm.sh
             npm install 
             npm run build
             sudo /usr/local/bin/deploy-website

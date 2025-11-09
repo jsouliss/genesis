@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+BUILD_DIR="/home/jerry/genesis/build"
+WEB_DIR="/var/www/gsoulis.blog/html
+
+if [ ! -d  "$BUILD_DIR" ]; then
+    echo "[!] Error: Build directory not found."
+    exit 1
+fi
+
+cp -r "$BUILD_DIR"/* "$WEB_DIR"/
+systemctl restart nginx
+
+echo "[i] Website deployed successfully."

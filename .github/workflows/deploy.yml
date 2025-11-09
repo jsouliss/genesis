@@ -9,6 +9,14 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
+      - name: start deployment
+        uses: bobheadxi/deployments@v1
+        id: deployment
+        with:
+          step: start
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: prod
+
       - name: Connect Tailscale
         uses: tailscale/github-action@v4.1.0
         with:
@@ -30,3 +38,14 @@ jobs:
             npm install 
             npm run build
             sudo /usr/local/bin/deploy-website
+
+      - name: GitHub Deployments
+        uses: bobheadxi/deployments@v1.5.0
+        if: always()
+        with:
+          step: finish
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          env: ${{ steps.deployment.outputs.env }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: https://gsoulis.blog

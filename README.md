@@ -9,7 +9,7 @@
 
 ---
 
-- This project involves the development of my personal website https://jsoulis.com, which is hosted on an AWS EC2 instance.
+- This project involves the development of my personal website https://gsoulis.blog, which is hosted on an AWS EC2 instance.
 
 ---
 

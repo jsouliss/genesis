@@ -6,7 +6,7 @@ const AboutContent = () => {
         <div>
             <h1 className={"title-text"}>gsoulis (re)build</h1>
 
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <p className={"about-text"}>
                 I am a recent <b>Computer Science</b> graduate with a minor in <b>Computer Information Systems</b> from <b>Cal Poly Pomona</b>, currently working as a <b>software engineer</b> at <b>JT4</b>. Outside of work, I am diving deep into <b>cybersecurity</b>—completing CTFs, studying for certifications, and exploring offensive security techniques. This blog documents my journey through software engineering, security research, and everything I am learning along the way.
             </p>

@@ -1,6 +1,7 @@
 import React from "react";
 /* icons */
 import fileIcon from "../assets/footer/file.png";
+import certIcon from "../assets/footer/cert.png"
 import mailIcon from "../assets/footer/mention.png";
 import linkedinIcon from "../assets/footer/linkedin.png";
 import githubIcon from "../assets/footer/github.png";
@@ -23,11 +24,9 @@ const Footer = () => {
       <div className="footer-container">
         <footer className="footer-block-container">
           <FooterBlockComponent>
-            <ContactInfo icon={fileIcon} text="Certifications" href="" isLink />
             <ContactInfo icon={fileIcon} text="Resume" href={"https://gsoulis-assets.s3.us-west-1.amazonaws.com/Gerardo_S_Resume_Redact.pdf"} isLink />
-
+            <ContactInfo icon={certIcon} text="Certifications" href="/about#certifications" isLink />
             <ContactInfo icon={mailIcon} text="jsoulis@pm.me" />
-
           </FooterBlockComponent>
           <FooterBlockComponent>
             <SocialLink

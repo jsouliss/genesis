@@ -1,8 +1,8 @@
 const AboutBody = () => {
     return (
-        <svg 
+        <svg
             width="822"
-            height="788"
+            height="1000"
             viewBox="0 0 822 788"
             preserveAspectRatio="none"
             fill="none" 

@@ -27,6 +27,18 @@
         Makes it a block element - SVG takes up the full width of its container */
 }
 
+@media (max-width: 1100px) {
+    .body-container {
+        display: flex;
+        animation: none; /* Stop floating at threshold */
+        flex: 1;
+    }
+
+    .body-container svg {
+        height: 100%;
+    }
+}
+
 .content-wrapper {
     top: 0;
     left: 0;
@@ -37,7 +49,9 @@
     overflow-y: auto; /* Enable vertical scrolling */
     position: absolute;
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    border-radius: 55px; /* Match the SVG's rounded corners */
     font-family: "Outfit", sans-serif;
+    z-index: 1;
 }
 
 .content-wrapper::-webkit-scrollbar {

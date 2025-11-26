@@ -3,7 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1;
+    z-index: 0;
     margin-top: 150px;
     margin-bottom: 100px;
+}
+
+@media (max-width: 1100px) {
+    .about-container {
+        flex: 1;
+        margin: 0;
+        padding-top: 63px; /* Account for fixed navbar height */
+    }
 }

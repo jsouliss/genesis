@@ -13,7 +13,7 @@ const AboutContent = () => {
 
             <br />
 
-            <h2>Certifications & Labs</h2>
+            <h2 id={"certifications"}>Certifications & Labs</h2>
             <ul className={"cert-list"}>
                 <li>Red Team Operator (CRTO)</li>
                 <li>Certified Red Team Ops Certificate of Course Completion (Zero-Point Security)</li>

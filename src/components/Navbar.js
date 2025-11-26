@@ -1,7 +1,6 @@
 // src/components/NavBar.js
 import React from "react";
 import "../styles/Navbar.css";
-import searchIcon from "../assets/navbar/search.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -30,7 +29,7 @@ const Navbar = () => {
             </button>
           </Link>
         </li>
-          { /*
+        {/*
         <li>
             <Link to="/search" className="navbar-link">
             <button className="navbar-button">
@@ -40,12 +39,12 @@ const Navbar = () => {
         </li>
         */}
       </ul>
-        { /*
+      {/*
       <Link to="/signin" className="signin-container">
         <button className="signin-button" />
         <span className="signin-text">G.S.</span>
       </Link>
-      */ }
+      */}
       <div className="signin-container">
         <button className="signin-button" />
         <span className="signin-text">G.S.</span>

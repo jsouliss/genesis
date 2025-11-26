@@ -112,4 +112,13 @@
         width: 100%;
         animation: none;
     }
+
+    .desc-text {
+        margin: 5% 35px;
+    }
+
+    .about-footer{
+        margin-left: -35px;
+        margin-right: -35px;
+    }
 }

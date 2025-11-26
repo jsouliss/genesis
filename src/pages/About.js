@@ -1,11 +1,11 @@
 import React from "react";
-import BodyContent from "../components/BodyContent"
+import AboutBodyContent from "../components/AboutBodyContent"
 import "../styles/About.css"
 
 const About = () => {
   return (
     <div className="about-container">
-      <BodyContent/>
+      <AboutBodyContent/>
     </div>
   );
 };

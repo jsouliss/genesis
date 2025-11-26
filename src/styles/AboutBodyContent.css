@@ -16,6 +16,10 @@
     animation: float 6s ease-in-out infinite;
 }
 
+.body-container:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
 .body-container svg {
     width: 100%;
     height: auto;
@@ -29,6 +33,7 @@
     width: 100%;
     height: 100%;
     color: white;
+    overflow-x: hidden;  /* Prevents horizontal scrolling */
     overflow-y: auto; /* Enable vertical scrolling */
     position: absolute;
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
@@ -49,4 +54,56 @@
     margin: 5% 10%;
     text-align: left;
     font-size: clamp(14px, 2vw, 16px); /* Responsive font size - min, 2% font scale, max */
+}
+
+.about-text {
+    line-height: 2.0;
+}
+
+.cert-list {
+    list-style-type: disc; /* Bullet points */
+}
+
+.cert-list li {
+    margin-bottom: 12px;
+}
+
+.comp-list {
+    list-style-type: none; /* Bullet points */
+}
+.comp-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);  /* Underline */
+}
+
+.comp-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.about-footer {
+    /* Spacing */
+    margin-top: 40px;
+    margin-left: -75px;
+    margin-right: -75px;
+    padding: 20px 50px 0; /* top right bottom left */
+
+    /* Styling */
+    border-top: 2px solid #333; /* Thicker, darker */
+    font-size: 0.85rem; /* Smaller font */
+    opacity: 0.5; /* More transparent */
+}
+
+.about-footer p {
+    line-height: 1.5;
+}
+
+.footer-note {
+    margin-top: 100px;
+    text-align: center;
+    font-size: .6rem; /* Smaller font */
 }

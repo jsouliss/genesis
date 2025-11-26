@@ -1,4 +1,4 @@
-const Body = () => {
+const AboutBody = () => {
     return (
         <svg 
             width="822"
@@ -16,4 +16,4 @@ const Body = () => {
     );
 };
 
-export default Body;
+export default AboutBody;

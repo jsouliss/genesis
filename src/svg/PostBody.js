@@ -1,8 +1,6 @@
 const PostBody = () => {
   return (
     <svg
-      width="822"
-      height="788"
       viewBox="0 0 822 788"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

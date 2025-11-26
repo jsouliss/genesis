@@ -10,8 +10,7 @@
 
 @media (max-width: 1100px) {
     .about-container {
-        flex: 1;
         margin: 0;
-        padding-top: 63px; /* Account for fixed navbar height */
+        padding: 80px 0 20px 0; /* Top padding for navbar, bottom padding for spacing */
     }
 }

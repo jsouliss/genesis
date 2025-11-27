@@ -12,18 +12,20 @@ const postDetails = [
 
 const Post = () => {
   return (
-    <div className="post-body">
-      <PostBody />
-      {postDetails.map((post, index) => (
-        <div
-          key={post.id}
-          className={"post-details"}
-          style={{ top: `${index * 250}px`, marginTop: "50px" }}
-        >
-          <PostImage src={post.image} />
-          <PostDetail text={post.detail} />
-        </div>
-      ))}
+    <div className={"post-container"}>
+      <div className="post-body">
+        <PostBody />
+        {postDetails.map((post, index) => (
+          <div
+            key={post.id}
+            className={"post-details"}
+            style={{ top: `${index * 250}px`, marginTop: "50px" }}
+          >
+            <PostImage src={post.image} />
+            <PostDetail text={post.detail} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

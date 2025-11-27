@@ -1,6 +1,6 @@
 import React from "react";
 import PortraitContent from "../components/PortraitContent";
-import PostContent from "../components/PostContent";
+import FeaturedPostContent from "../components/FeaturedPostContent";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
       <div className={"portrait-content-container"}>
         <PortraitContent />
       </div>
-      <PostContent />
+      <FeaturedPostContent />
     </>
   );
 };

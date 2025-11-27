@@ -12,7 +12,7 @@
     }
 }
 
-.post-container {
+.featured-post-container {
     display: flex;
     position: relative;
     align-items: center;
@@ -20,17 +20,17 @@
     top: -85px;
     gap: 50px;
     z-index: 1;
-    animation:float 6s ease-in-out infinite;
+    animation: float 6s ease-in-out infinite;
 }
 
-.post {
+.featured-post {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.post-header {
+.featured-post-header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@
     z-index: 2;
 }
 
-.post-title {
+.featured-post-title {
     position: absolute;
     font-family: "Outfit", sans-serif;
     font-size: 20px;
@@ -47,24 +47,27 @@
 }
 
 @media (max-width: 900px) {
-    .post-container {
+    .featured-post-container {
         display: flex;
         position: relative;
         align-items: center;
         flex-direction: column;
         gap: 10px;
     }
-    .post {
+
+    .featured-post {
         position: relative;
     }
-    .post-header {
+
+    .featured-post-header {
         position: absolute;
         flex-direction: column;
         align-items: center;
         gap: 210px;
         top: 0;
     }
-    .post-title {
+
+    .featured-post-title {
         position: absolute;
     }
 }

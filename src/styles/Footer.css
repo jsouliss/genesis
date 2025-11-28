@@ -43,35 +43,40 @@
     z-index: 0;
 }
 
-.box-quote-container {
+.footer-bottom {
     display: flex;
     align-items: center;
-    padding-top: 25px;
-    z-index: 0;
+    padding: 10px 20px 20px 0;
+    position: relative;
 }
 
 .bbox {
-    bottom: 0;
     left: 0;
+    bottom: 0;
+    position: absolute;
     display: flex;
     width: 199px;
     height: 32px;
     background-color: black;
-    position: absolute;
     align-items: center;
     justify-content: center;
 }
 
-.bbox svg {
-    display: none;
-}
-
 .box-text {
-    position: absolute;
     color: white;
     font-family: "Outfit", sans-serif;
     font-weight: bold;
     font-size: 12px;
+}
+
+.copyright {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    margin: 0;
 }
 
 @media (max-width: 1100px) {

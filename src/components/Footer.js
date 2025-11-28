@@ -7,11 +7,12 @@ import linkedinIcon from "../assets/footer/linkedin.png";
 import githubIcon from "../assets/footer/github.png";
 import instagramIcon from "../assets/footer/instagram.png";
 import discordIcon from "../assets/footer/discord.png";
+import xIcon from "../assets/footer/x.png";
+
 /* styles */
 import "../styles/Footer.css";
 
 /* svg */
-import BBoxQuote from "../svg/BBoxQuote";
 
 /* components */
 import ContactInfo from "./ContactInfo";
@@ -57,6 +58,12 @@ const Footer = () => {
           </FooterBlockComponent>
           <FooterBlockComponent>
             <FooterLinks
+              href="https://x.com/jsoulisss"
+              icon={xIcon}
+              altText={"X"}
+              linkText={"X"}
+            />
+            <FooterLinks
               href="https://www.instagram.com/jsoulis_/"
               icon={instagramIcon}
               altText={"Instagram"}
@@ -69,13 +76,13 @@ const Footer = () => {
               linkText={"Discord"}
             />
           </FooterBlockComponent>
-          <div className={"box-quote-container"}>
-            <div className={"bbox"}>
-              <BBoxQuote />
-              <span className="box-text">Trust the Process</span>
-            </div>
-          </div>
         </footer>
+        <div className="footer-bottom">
+          <div className="bbox">
+            <span className="box-text">Trust the Process</span>
+          </div>
+          <p className="copyright">© 2025 Gerardo Solis</p>
+        </div>
       </div>
     </>
   );

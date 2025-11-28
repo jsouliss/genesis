@@ -97,24 +97,31 @@ const AboutBodyContent = () => {
           <span>2024</span>
         </li>
         <li>
-          <span>
-            <strong>Information Technology Competition</strong> - 1st Place
-          </span>
+          <a
+            href={
+              "https://gsoulis-assets.s3.us-west-1.amazonaws.com/ITC_Awards_2024.png"
+            }
+          >
+            <span>
+              <strong>Information Technology Competition</strong> - Team
+              Captain, 1st Place
+            </span>
+          </a>
           <span>2024</span>
         </li>
         <li>
           <span>
             <strong>
               National Centers of Academic Excellence in Cybersecurity
-            </strong>
-            - Nationals 2nd Place
+            </strong>{" "}
+            - Team Captain, Nationals 2nd Place
           </span>
           <span>2024</span>
         </li>
         <li>
           <span>
-            <strong>U.S. Department of Energy CyberForce</strong> - 16th
-            Place/1st in Defensive Category
+            <strong>U.S. DOE CyberForce</strong> - Team Captain, 16th Place
+            Overall, 1st in Defensive Category
           </span>
           <span>2023</span>
         </li>
@@ -122,7 +129,7 @@ const AboutBodyContent = () => {
           <span>
             <strong>
               National Centers of Academic Excellence in Cybersecurity
-            </strong>
+            </strong>{" "}
             - Regional Champion
           </span>
           <span>2023</span>
@@ -131,13 +138,12 @@ const AboutBodyContent = () => {
       <footer className="about-footer">
         <p>
           Special thanks to Bill, Alex, Dylan, and SWIFT for introducing me to
-          cybersecurity and giving me an opportunity to learn and grow further
-          within this field.
+          cybersecurity and giving me the opportunity to learn and grow within
+          this field.
         </p>
         <p className="footer-note">
-          This site was initially using github pages but is now being rebuilt
-          from scratch. All code and services will be developed and configured
-          by me.
+          This site initially used GitHub Pages but is now being rebuilt from
+          scratch. All code and services are developed and configured by me.
         </p>
       </footer>
     </div>

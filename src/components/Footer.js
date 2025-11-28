@@ -36,6 +36,7 @@ const Footer = () => {
               icon={certIcon}
               text="Certifications"
               href={"/about#certifications"}
+              newTab={false}
               isLink
             />
             <ContactInfo icon={mailIcon} text="jsoulis@pm.me" />

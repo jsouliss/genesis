@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/FooterLinks.css";
 
-const ContactInfo = ({ icon, text, href, isLink }) => {
+const ContactInfo = ({ icon, text, href, isLink, newTab = true }) => {
   function handleEmailClick(text) {
     navigator.clipboard.writeText(text);
   }
@@ -16,8 +16,8 @@ const ContactInfo = ({ icon, text, href, isLink }) => {
       {isLink ? (
         <a
           href={href}
-          target="_blank"
-          rel="noopener noreferrer"
+          target={newTab ? "_blank" : "_self"}
+          rel={newTab ? "noopener noreferrer" : undefined}
           className={`${text.toLowerCase()}-link`}
         >
           {text}

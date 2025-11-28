@@ -20,7 +20,6 @@
     top: -85px;
     gap: 50px;
     z-index: 1;
-    animation: float 6s ease-in-out infinite;
 }
 
 .featured-post {
@@ -28,6 +27,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: float 6s ease-in-out infinite;
+}
+
+.featured-post:hover,
+.featured-post:hover ~ .featured-post,
+.featured-post:has(~ .featured-post:hover) {
+    animation-play-state: paused;
 }
 
 .featured-post-header {
@@ -57,6 +63,7 @@
 
     .featured-post {
         position: relative;
+        animation: none
     }
 
     .featured-post-header {

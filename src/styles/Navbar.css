@@ -18,14 +18,17 @@
         white-space: nowrap;
         padding-left: 50px;
     }
+
     .navbar ul {
         align-items: center;
         justify-content: flex-start;
         overflow-x: auto;
     }
+
     .navbar ul::-webkit-scrollbar {
         display: none;
     }
+
     .signin-container {
         display: none;
         position: relative;
@@ -43,22 +46,30 @@
 
 .navbar-button {
     all: unset;
-    background-image: url("/src/assets/navbar/navButton.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #F1FA8C;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75px;
+    width: 76px;
     height: 31px;
+    border-radius: 16px;
     z-index: 1;
     cursor: pointer;
     outline: none;
+    transition: all 0.2s ease; /* Smooth transition for all changes */
+}
+
+.navbar-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
 }
 
 .navbar-button:active {
     transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 
 .navbar-link {
     display: flex;

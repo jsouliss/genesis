@@ -11,7 +11,9 @@ const PortraitContent = () => {
         <BG_Portrait />
         <img
           className="portrait-img"
-          src={"https://gsoulis-assets.s3.us-west-1.amazonaws.com/Jerry_Solis.jpeg"}
+          src={
+            "https://gsoulis-assets.s3.us-west-1.amazonaws.com/Jerry_Solis.jpeg"
+          }
           alt={"Gerardo Solis Portrait"}
         />
       </div>
@@ -19,9 +21,11 @@ const PortraitContent = () => {
         <Name_Tag />
         <div className="name-tag-content">
           <div className="name-tag-text">Gerardo Solis</div>
+          {/*
           <div className="name-tag-subtext">
             Cybersecurity | Software Engineering
           </div>
+          */}
         </div>
       </div>
     </div>

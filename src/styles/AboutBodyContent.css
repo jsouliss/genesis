@@ -67,6 +67,19 @@
     margin-bottom: 12px;
 }
 
+a, a:visited, a:hover, a:active {
+    color: white;
+}
+
+.cert-list a:link, a:visited, a:active {
+    color: white; /* Or any other color you prefer */
+    text-decoration: none; /* Removes the underline */
+}
+
+.cert-list a:hover {
+    color: #ff5555; /* Change color on hover */
+}
+
 .comp-list {
     list-style-type: none; /* Bullet points */
 }

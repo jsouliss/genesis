@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/ContactInfo.css";
+import "../styles/FooterLinks.css";
 
 const ContactInfo = ({ icon, text, href, isLink }) => {
-    function handleEmailClick(text) {
-        navigator.clipboard.writeText(text)
-    }
+  function handleEmailClick(text) {
+    navigator.clipboard.writeText(text);
+  }
 
-    return (
+  return (
     <div className="horizontal-align">
       <img
         src={icon}
@@ -24,7 +24,7 @@ const ContactInfo = ({ icon, text, href, isLink }) => {
         </a>
       ) : (
         <span className={"email-text"} onClick={() => handleEmailClick(text)}>
-            {text}
+          {text}
         </span>
       )}
     </div>

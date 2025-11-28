@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/SocialLink.css";
+import "../styles/FooterLinks.css";
 
-const SocialLink = ({ href, icon, altText, linkText }) => {
+const FooterLinks = ({ href, icon, altText, linkText }) => {
   return (
     <div className={`horizontal-align`}>
       <img
@@ -21,4 +21,4 @@ const SocialLink = ({ href, icon, altText, linkText }) => {
   );
 };
 
-export default SocialLink;
+export default FooterLinks;

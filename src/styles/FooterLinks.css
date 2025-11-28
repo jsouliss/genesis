@@ -1,0 +1,40 @@
+/* Resume Cert Email */
+a.certifications-link, a.resume-link {
+    color: #50fa7b;
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.certifications-link:hover, .resume-link:hover, .email-text:hover {
+    color: #ff5555;
+    text-decoration: none; /* Optional: remove underline */
+    cursor: pointer;
+}
+
+.cert-icon, .resume-icon, .mention-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* LinkedIn Github Instagram Discord */
+
+.horizontal-align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linkedin-icon, .certifications-icon, .github-icon, .instagram-icon, .discord-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.linkedin-link, .github-link, .instagram-link, .discord-link, .email-text {
+    color: #50fa7b;
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.linkedin-link:hover, .github-link:hover, .instagram-link:hover, .discord-link:hover,
+.certifications-link:hover {
+    color: #ff5555; /* Change this to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}

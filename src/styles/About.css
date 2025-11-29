@@ -11,6 +11,6 @@
 @media (max-width: 1100px) {
     .about-container {
         margin: 0;
-        padding: 80px 0 20px 0; /* Top padding for navbar, bottom padding for spacing */
+        padding: 80px 15px 20px 15px; /* Top padding for navbar, bottom padding for spacing */
     }
 }

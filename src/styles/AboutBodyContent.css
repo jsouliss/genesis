@@ -65,6 +65,8 @@
 
 .cert-list li {
     margin-bottom: 12px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 a, a:link, a:visited, a:active {
@@ -83,8 +85,8 @@ a:hover {
 .comp-list li {
     display: flex;
     justify-content: space-between;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -20px;
+    margin-right: -20px;
     margin-bottom: 12px;
     padding-bottom: 12px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Underline */

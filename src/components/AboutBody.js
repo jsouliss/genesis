@@ -1,8 +1,6 @@
 import React from "react";
 import AboutBodyComp from "../svg/AboutBody";
 import AboutBodyContent from "./AboutBodyContent";
-
-import "../styles/Body.css";
 import "../styles/AboutBodyContent.css";
 
 const AboutBody = () => {

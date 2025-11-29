@@ -63,7 +63,7 @@ const Footer = () => {
               linkText={"X"}
             />
             <FooterLinks
-              href="https://www.instagram.com/jsoulis_/"
+              href="https://www.instagram.com/jsouliss/"
               icon={instagramIcon}
               altText={"Instagram"}
               linkText={"Instagram"}

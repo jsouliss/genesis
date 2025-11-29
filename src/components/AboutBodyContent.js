@@ -110,12 +110,18 @@ const AboutBodyContent = () => {
           <span>2024</span>
         </li>
         <li>
-          <span>
-            <strong>
-              National Centers of Academic Excellence in Cybersecurity
-            </strong>{" "}
-            - Team Captain, Nationals 2nd Place
-          </span>
+          <a
+            href={
+              "https://gsoulis-assets.s3.us-west-1.amazonaws.com/NCAE_2024_Scoreboard.png"
+            }
+          >
+            <span>
+              <strong>
+                National Centers of Academic Excellence in Cybersecurity
+              </strong>{" "}
+              - Team Captain, Nationals 2nd Place
+            </span>
+          </a>
           <span>2024</span>
         </li>
         <li>

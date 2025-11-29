@@ -85,7 +85,7 @@ a:hover {
 .comp-list li {
     display: flex;
     justify-content: space-between;
-    margin-left: -20px;
+    margin-left: -25px;
     margin-right: -20px;
     margin-bottom: 12px;
     padding-bottom: 12px;

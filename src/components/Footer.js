@@ -13,7 +13,6 @@ import xIcon from "../assets/footer/x.png";
 import "../styles/Footer.css";
 
 /* svg */
-
 /* components */
 import ContactInfo from "./ContactInfo";
 import FooterBlockComponent from "./FooterBlockComponent";

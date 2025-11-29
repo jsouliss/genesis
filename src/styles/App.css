@@ -26,16 +26,6 @@ html, body {
     width: 100%;
 }
 
-@media (max-width: 1100px) {
-    .content {
-        height: 100%;
-        padding-top: 10px; /* Account for fixed navbar height */
-        padding-bottom: 10px;
-        overflow-y: auto;
-        box-sizing: border-box;
-    }
-}
-
 @font-face {
     font-family: "Outfit";
     src: url("/src/assets/fonts/Outfit-Regular.ttf") format("truetype");
@@ -50,3 +40,11 @@ html, body {
     font-style: normal;
 }
 
+@media (max-width: 1100px) {
+    .content {
+        height: 100%;
+        padding-top: 10px; /* Account for fixed navbar height */
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+}

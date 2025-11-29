@@ -4,10 +4,14 @@ import "../styles/AboutBodyContent.css";
 const AboutBodyContent = () => {
   return (
     <div>
-      <h1 className={"title-text"}>gsoulis (re)build</h1>
+      <h1 className={"title-text"} data-aos={"fade"}>
+        gsoulis (re)build
+      </h1>
 
-      <h2>About Me</h2>
-      <p className={"about-text"}>
+      <h2 data-aos={"fade-up"} data-aos-delay={"100"}>
+        About Me
+      </h2>
+      <p className={"about-text"} data-aos={"fade-up"} data-aos-delay={"200"}>
         I am a recent <b>Computer Science</b> graduate with a minor in{" "}
         <b>Computer Information Systems</b> from <b>Cal Poly Pomona</b>,
         currently working as a <b>software engineer</b> at <b>JT4</b>. Outside
@@ -19,8 +23,10 @@ const AboutBodyContent = () => {
 
       <br />
 
-      <h2 id={"certifications"}>Certifications & Labs</h2>
-      <ul className={"cert-list"}>
+      <h2 id={"certifications"} data-aos={"fade-up"}>
+        Certifications & Labs
+      </h2>
+      <ul className={"cert-list"} data-aos={"fade-up"} data-aos-delay={"100"}>
         <li>
           <a
             href={
@@ -87,8 +93,8 @@ const AboutBodyContent = () => {
 
       <br />
 
-      <h2>Competitions</h2>
-      <ul className={"comp-list"}>
+      <h2 data-aos={"fade-up"}>Competitions</h2>
+      <ul className={"comp-list"} data-aos={"fade-up"} data-aos-delay={"100"}>
         <li>
           <span>
             <strong>Global Collegiate Penetration Testing Competition</strong> -
@@ -116,38 +122,32 @@ const AboutBodyContent = () => {
             }
           >
             <span>
-              <strong>
-                National Centers of Academic Excellence in Cybersecurity
-              </strong>{" "}
-              - Team Captain, Nationals 2nd Place
+              <strong>NCAE-C</strong> - Team Captain, Nationals 2nd Place
             </span>
           </a>
           <span>2024</span>
         </li>
         <li>
           <span>
-            <strong>U.S. DOE CyberForce</strong> - Team Captain, 16th Place
-            Overall, 1st in Defensive Category
+            <strong>U.S. DOE CyberForce</strong> - Team Captain, 16th Place, 1st
+            in Defensive Category
           </span>
           <span>2023</span>
         </li>
         <li>
           <span>
-            <strong>
-              National Centers of Academic Excellence in Cybersecurity
-            </strong>{" "}
-            - Regional Champion
+            <strong>NCAE-C</strong> - Regional Champion
           </span>
           <span>2023</span>
         </li>
       </ul>
       <footer className="about-footer">
-        <p>
+        <p data-aos={"fade-up"}>
           Special thanks to Bill, Alex, Dylan, and SWIFT for introducing me to
           cybersecurity and giving me the opportunity to learn and grow within
           this field.
         </p>
-        <p className="footer-note">
+        <p className="footer-note" data-aos={"fade-up"} data-aos-delay={"100"}>
           This site initially used GitHub Pages but is now being rebuilt from
           scratch. All code and services are developed and configured by me.
         </p>

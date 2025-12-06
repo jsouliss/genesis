@@ -80,7 +80,7 @@ const Footer = () => {
           <div className="bbox">
             <span className="box-text">Trust the Process</span>
           </div>
-          <p className="copyright">© 2025 Gerardo Solis</p>
+          <p className="copyright">Copyright © 2025 Gerardo Solis</p>
         </div>
       </div>
     </>

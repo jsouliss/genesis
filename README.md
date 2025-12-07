@@ -9,7 +9,10 @@
 
 ---
 
-- This project involves the development of my personal website https://gsoulis.blog, which is hosted on an AWS EC2 instance.
+[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/2atqo.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+
+- This project involves the development of my personal website https://gsoulis.blog, which is hosted on an AWS EC2
+  instance.
 
 ---
 
@@ -23,11 +26,12 @@
 
 - Lambda functions and CloudWatch events have been implemented to automate the server shutdown and bootup process.
 
-  - This will occur daily from 12 PM PDT to 7 AM PDT to save costs.
+    - This will occur daily from 12 PM PDT to 7 AM PDT to save costs.
 
 ---
 
-- The site will feature all projects I have worked on that I have not yet posted or shared, as well as projects I am currently working on.
+- The site will feature all projects I have worked on that I have not yet posted or shared, as well as projects I am
+  currently working on.
 
 - For additional information, please contact me at **jsoulis@pm.me**
 

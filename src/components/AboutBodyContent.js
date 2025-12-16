@@ -21,6 +21,12 @@ const AboutBodyContent = () => {
         security research, and everything I am learning along the way.
       </p>
 
+      <p className={"about-text"} data-aos={"fade-up"} data-aos-delay={"200"}>
+        I am currently focused on earning the CRTO II (Certified Red Team
+        Operator II) from Zero Point Security, with OSCP in the near future. I
+        will update this blog when time allows.
+      </p>
+
       <br />
 
       <h2 id={"certifications"} data-aos={"fade-up"}>

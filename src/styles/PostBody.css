@@ -137,6 +137,23 @@
 /* Temporary settings until responsive design is implemented */
 @media (max-width: 1100px) {
     .post-container {
+        width: 90%;
+        height: auto;
+        padding: 30px;
         animation: none;
+    }
+
+    .card-container {
+        width: 100%;
+        padding: 15px; 
+        gap: 24px;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    .details-container {
+        width: 100%;
     }
 }

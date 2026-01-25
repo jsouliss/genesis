@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     transform: translate(0px, -150px);
-    z-index: 0;
+    z-index: 2;
 }
 
 .portrait-img {

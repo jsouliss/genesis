@@ -5,7 +5,7 @@ import "../styles/FeaturedPostContent.css";
 
 const FeaturedPostContent = () => {
   return (
-    <div className="featured-post-container">
+    <div className="featured-post-container" data-aos={"fade-up"} data-aos-delay={"200"}>
       <div className="featured-post">
         <div className="featured-post-header">
           <div className="featured-post-title">Cybersecurity</div>

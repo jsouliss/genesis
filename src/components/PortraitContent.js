@@ -5,7 +5,7 @@ import "../styles/PortraitContent.css";
 
 const PortraitContent = () => {
   return (
-    <div>
+    <div data-aos={"fade-up"}>
       <div className="portrait-container">
         {/* eslint-disable-next-line react/jsx-pascal-case */}
         <BG_Portrait />

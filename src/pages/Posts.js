@@ -15,16 +15,25 @@ const Post = () => {
   const currentPosts = mockPosts.slice(startIndex, endIndex);
   const totalPages = Math.ceil( mockPosts.length / POSTS_PER_PAGE);
 
+  const truncate = (text, maxLength) => {
+    if(text.length <= maxLength) return text;
+    return text.slice(0, maxLength) + "..."; 
+  }
+
   return (
     <div className={"post-container"}>
       {currentPosts.map((post) => (
       <div key = {post.id} className={"card-container"}>
         <div className={"image-container"}>
-
+          <div 
+            className="image-inner"
+            style={{backgroundImage: `url(${post.image})`}}
+          >
+          </div>
         </div>
         <div className={"details-container"}>
           <h3> {post.title} </h3>
-          <p> {post.excerpt} </p>
+          <p> {truncate(post.excerpt, 100)} </p>
           <span> {post.date} | {post.category} </span>
         </div>
       </div>

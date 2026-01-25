@@ -1,8 +1,4 @@
 import "../styles/PostBody.css";
-
-// import PostBody from "../svg/PostBody";
-// import PostDetail from "../svg/PostDetail";
-// import PostImage from "../svg/PostImage";
 import mockPosts from "../data/mockPosts";
 import { useState } from 'react';
 

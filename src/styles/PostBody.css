@@ -129,6 +129,10 @@
     pointer-events: auto;
 }
 
+.pagination button:active {
+    transform: scale(0.95);
+}
+
 .pagination span {
     color: white;
     font-family: "Outfit", sans-serif;

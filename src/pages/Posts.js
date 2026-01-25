@@ -18,8 +18,13 @@ const Post = () => {
 
   return (
     <div className={"post-container"}>
-      {currentPosts.map((post) => (
-      <div key = {post.id} className={"card-container"}>
+      {currentPosts.map((post, index) => (
+      <div 
+        key = {post.id} 
+        className={"card-container"} 
+        data-aos="fade-up" 
+        data-aos-delay={index * 100}
+      >
         <div className={"image-container"}>
           <div 
             className="image-inner"

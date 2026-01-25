@@ -17,14 +17,19 @@ const Post = () => {
 
   return (
     <div className={"post-container"}>
-      <div className={"card-container"}>
+      {currentPosts.map((post) => (
+      <div key = {post.id} className={"card-container"}>
+
         <div className={"image-container"}>
 
         </div>
         <div className={"details-container"}>
-          
+          <h3> {post.title} </h3>
+          <p> {post.excerpt} </p>
+          <span> {post.date} | {post.category} </span>
         </div>
       </div>
+      ))}
     </div>
   );
 };

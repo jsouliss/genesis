@@ -59,11 +59,16 @@
 
 .details-container {
     background-color: #49577E;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: clamp(14px, 2vw, 16px); /* Responsive font size - min, 2% font scale, max */
     border-radius: 50px;
     min-height: 177px;
     width: 426px;
+    padding: 15px;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: hidden;
 }
 

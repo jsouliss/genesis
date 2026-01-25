@@ -19,7 +19,6 @@ const Post = () => {
     <div className={"post-container"}>
       {currentPosts.map((post) => (
       <div key = {post.id} className={"card-container"}>
-
         <div className={"image-container"}>
 
         </div>
@@ -30,6 +29,15 @@ const Post = () => {
         </div>
       </div>
       ))}
+      <div className="pagination">
+        <button onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1}>
+          ← Back
+        </button>
+        <span>{currentPage} of {totalPages}</span>
+        <button onClick={() => setCurrentPage(currentPage + 1)} disabled={currentPage === totalPages}>
+          Forward →
+        </button>
+      </div>
     </div>
   );
 };

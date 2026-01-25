@@ -32,3 +32,6 @@ node_modules/
 
 # opencode
 AGENTS.md
+
+# vscodium
+genesis.code-workspace

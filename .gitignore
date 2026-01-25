@@ -29,3 +29,6 @@ yarn-error.log*
 # Other 
 *.lock
 node_modules/
+
+# opencode
+AGENTS.md

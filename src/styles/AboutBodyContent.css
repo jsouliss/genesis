@@ -59,6 +59,10 @@
     line-height: 2.0;
 }
 
+.red-text {
+    color: #ff5555;
+}
+
 .cert-list {
     list-style-type: disc; /* Bullet points */
 }

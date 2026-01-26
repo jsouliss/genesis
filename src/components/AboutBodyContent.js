@@ -5,7 +5,7 @@ const AboutBodyContent = () => {
   return (
     <div>
       <h1 className={"title-text"} data-aos={"fade"}>
-        gsoulis (re)build
+        gsoulis <span className="red-text">(re)</span>build
       </h1>
 
       <h2 data-aos={"fade-up"} data-aos-delay={"100"}>

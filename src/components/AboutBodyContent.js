@@ -9,7 +9,7 @@ const AboutBodyContent = () => {
       </h1>
 
       <h2 data-aos={"fade-up"} data-aos-delay={"100"}>
-        About Me
+        <span className="red-text">About Me</span>
       </h2>
       <p className={"about-text"} data-aos={"fade-up"} data-aos-delay={"200"}>
         I am a recent <b>Computer Science</b> graduate with a minor in{" "}
@@ -33,7 +33,7 @@ const AboutBodyContent = () => {
       <br />
 
       <h2 id={"certifications"} data-aos={"fade-up"}>
-        Certifications & Labs
+        <span className="red-text">Certifications & Labs</span>
       </h2>
       <ul className={"cert-list"} data-aos={"fade-up"} data-aos-delay={"100"}>
         <li>
@@ -102,7 +102,7 @@ const AboutBodyContent = () => {
 
       <br />
 
-      <h2 data-aos={"fade-up"}>Competitions</h2>
+      <h2 data-aos={"fade-up"}><span className="red-text">Competitions</span></h2>
       <ul className={"comp-list"} data-aos={"fade-up"} data-aos-delay={"100"}>
         <li>
           <span>

@@ -116,8 +116,9 @@
     background-color: #F1FA8C;
     color: black;
     border: none;
-    border-radius: 16px;
-    padding: 8px 16px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
     font-family: "Outfit", sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -135,6 +136,7 @@
 
 .pagination span {
     color: white;
+    font-size: 12px;
     font-family: "Outfit", sans-serif;
 }
 

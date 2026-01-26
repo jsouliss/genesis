@@ -55,26 +55,6 @@ const Footer = () => {
               linkText={"GitHub"}
             />
           </FooterBlockComponent>
-          <FooterBlockComponent>
-            <FooterLinks
-              href="https://x.com/jsoulisss"
-              icon={xIcon}
-              altText={"X"}
-              linkText={"X"}
-            />
-            <FooterLinks
-              href="https://www.instagram.com/jsouliss/"
-              icon={instagramIcon}
-              altText={"Instagram"}
-              linkText={"Instagram"}
-            />
-            <FooterLinks
-              href="https://discordapp.com/users/609820784759799814"
-              icon={discordIcon}
-              altText={"Discord"}
-              linkText={"Discord"}
-            />
-          </FooterBlockComponent>
         </footer>
         <div className="footer-bottom">
           <div className="bbox">

@@ -150,6 +150,15 @@ const AboutBodyContent = () => {
           <span>2023</span>
         </li>
       </ul>
+
+      <br />
+
+      <div className={"badge-wrapper"} data-aos={"fade-up"} data-aos-delay={"200"}>
+          <img className="badge-embed" src="https://www.hackthebox.com/badge/image/859671" alt="Hack The Box"/>
+      </div>
+
+      <br />
+
       <footer className="about-footer">
         <p data-aos={"fade-up"}>
           Special thanks to Bill, Alex, Dylan, and SWIFT for introducing me to

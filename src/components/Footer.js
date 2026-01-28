@@ -5,8 +5,6 @@ import certIcon from "../assets/footer/cert.png";
 import mailIcon from "../assets/footer/mention.png";
 import linkedinIcon from "../assets/footer/linkedin.png";
 import githubIcon from "../assets/footer/github.png";
-import instagramIcon from "../assets/footer/instagram.png";
-import discordIcon from "../assets/footer/discord.png";
 import xIcon from "../assets/footer/x.png";
 
 /* styles */
@@ -41,7 +39,14 @@ const Footer = () => {
             />
             <ContactInfo icon={mailIcon} text="jsoulis@pm.me" />
           </FooterBlockComponent>
+          
           <FooterBlockComponent>
+            <FooterLinks
+              href="https://x.com/jsoulisss"
+              icon={xIcon}
+              altText={"X"}
+              linkText={"X"}
+            />
             <FooterLinks
               href="https://www.linkedin.com/in/gsoulis/"
               icon={linkedinIcon}

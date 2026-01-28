@@ -29,17 +29,17 @@ a.certifications-link, a.resume-link {
     border-radius: 7px;
 }
 
-.linkedin-icon, .certifications-icon, .github-icon, .instagram-icon, .discord-icon {
+.linkedin-icon, .certifications-icon, .github-icon {
     width: 25px;
     height: 25px;
 }
 
-.linkedin-link, .github-link, .x-icon, .instagram-link, .discord-link, .email-text {
+a.linkedin-link, a.github-link, a.x-link, .email-text {
     color: #50fa7b;
     text-decoration: none; /* Optional: remove underline */
 }
 
-.linkedin-link:hover, .github-link:hover, .x-icon, .instagram-link:hover, .discord-link:hover,
+a.linkedin-link:hover, a.github-link:hover, a.x-link:hover,
 .certifications-link:hover {
     color: #ff5555; /* Change this to your desired color */
     text-decoration: none; /* Optional: remove underline */

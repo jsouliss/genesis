@@ -30,8 +30,11 @@ yarn-error.log*
 *.lock
 node_modules/
 
-# opencode
+# opencode/codex
 AGENTS.md
+
+# claude
+CLAUDE.md
 
 # vscodium
 genesis.code-workspace

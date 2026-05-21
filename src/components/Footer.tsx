@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/FooterLinks.css";
 
 const FooterLinks = ({ href, icon, altText, linkText }) => {

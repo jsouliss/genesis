@@ -1,6 +1,5 @@
-import React from "react";
 import BG_Portrait from "../svg/BG_Portrait";
-import { ReactComponent as Name_Tag } from "../assets/body/Name_Tag.svg";
+import Name_Tag from "../assets/body/Name_Tag.svg?react";
 import "../styles/PortraitContent.css";
 
 const PortraitContent = () => {

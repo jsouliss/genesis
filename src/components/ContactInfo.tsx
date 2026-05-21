@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/FooterLinks.css";
 
 const ContactInfo = ({ icon, text, href, isLink, newTab = true }) => {

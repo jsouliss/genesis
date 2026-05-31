@@ -11,7 +11,7 @@ const PortraitContent = () => {
         <img
           className="portrait-img"
           src={
-            "https://gsoulis-assets.s3.us-west-1.amazonaws.com/Jerry_Solis.jpeg"
+            "https://assets.gsoulis.blog/Jerry_Solis.jpeg"
           }
           alt={"Gerardo Solis Portrait"}
         />

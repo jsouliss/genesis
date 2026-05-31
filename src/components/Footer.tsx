@@ -25,7 +25,7 @@ const Footer = () => {
               icon={fileIcon}
               text="Resume"
               href={
-                "https://gsoulis-assets.s3.us-west-1.amazonaws.com/Gerardo_S_Resume_Redact.pdf"
+                "https://assets.gsoulis.blog/Gerardo_S_Resume_Redacted.pdf"
               }
               isLink
             />

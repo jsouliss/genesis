@@ -40,6 +40,7 @@
     "prettier": "^3.6.2",
     "typescript": "^6.0.3",
     "vite": "^8.0.13",
-    "vite-plugin-svgr": "^5.2.0"
+    "vite-plugin-svgr": "^5.2.0",
+    "wrangler": "^4.95.0"
   }
 }

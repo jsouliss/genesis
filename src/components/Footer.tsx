@@ -1,4 +1,3 @@
-import React from "react";
 /* icons */
 import fileIcon from "../assets/footer/file.png";
 import certIcon from "../assets/footer/cert.png";
@@ -26,7 +25,7 @@ const Footer = () => {
               icon={fileIcon}
               text="Resume"
               href={
-                "https://gsoulis-assets.s3.us-west-1.amazonaws.com/Gerardo_S_Resume_Redact.pdf"
+                "https://assets.gsoulis.blog/Gerardo_S_Resume_Redacted.pdf"
               }
               isLink
             />

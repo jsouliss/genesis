@@ -1,4 +1,3 @@
-import React from "react";
 import PortraitContent from "../components/PortraitContent";
 import FeaturedPostContent from "../components/FeaturedPostContent";
 import "../styles/Home.css";

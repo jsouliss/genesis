@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/AboutBodyContent.css";
 
 const AboutBodyContent = () => {
@@ -48,7 +47,7 @@ const AboutBodyContent = () => {
         <li>
           <a
             href={
-              "https://gsoulis-assets.s3.us-west-1.amazonaws.com/CRTO_Course_Cert.pdf"
+              "https://assets.gsoulis.blog/CRTO_Course_Cert.pdf"
             }
           >
             Certified Red Team Ops Certificate of Course Completion (Zero-Point
@@ -75,7 +74,7 @@ const AboutBodyContent = () => {
         </li>
         <li>
           <a
-            href={"https://gsoulis-assets.s3.us-west-1.amazonaws.com/Dante.pdf"}
+            href={"https://assets.gsoulis.blog/Dante.pdf"}
           >
             HackTheBox Pro Labs - Dante
           </a>
@@ -114,7 +113,7 @@ const AboutBodyContent = () => {
         <li>
           <a
             href={
-              "https://gsoulis-assets.s3.us-west-1.amazonaws.com/ITC_Awards_2024.png"
+              "https://assets.gsoulis.blog/ITC_Awards_2024.png"
             }
           >
             <span>
@@ -127,7 +126,7 @@ const AboutBodyContent = () => {
         <li>
           <a
             href={
-              "https://gsoulis-assets.s3.us-west-1.amazonaws.com/NCAE_2024_Scoreboard.png"
+              "https://assets.gsoulis.blog/NCAE_2024_Scoreboard.png"
             }
           >
             <span>

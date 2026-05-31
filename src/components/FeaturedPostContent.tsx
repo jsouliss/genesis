@@ -1,6 +1,5 @@
-import React from "react";
-import { ReactComponent as BoxBody } from "../assets/body/BoxBody.svg";
-import { ReactComponent as BoxHeader } from "../assets/body/BoxHeader.svg";
+import BoxBody from "../assets/body/BoxBody.svg?react";
+import BoxHeader from "../assets/body/BoxHeader.svg?react";
 import "../styles/FeaturedPostContent.css";
 
 const FeaturedPostContent = () => {

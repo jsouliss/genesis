@@ -1,7 +1,13 @@
-import React from "react";
 import "../styles/FooterLinks.css";
 
-const FooterLinks = ({ href, icon, altText, linkText }) => {
+type FooterLinksProps = {
+  href: string;
+  icon: string;
+  altText: string; 
+  linkText: string;
+};
+
+const FooterLinks = ({ href, icon, altText, linkText } : FooterLinksProps) => {
   return (
     <div className={`horizontal-align`}>
       <img

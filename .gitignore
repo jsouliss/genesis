@@ -2,6 +2,10 @@
 
 # claude
 CLAUDE.md
+.claude/
+
+# opencode/codex
+AGENTS.md
 
 # dependencies
 /node_modules
@@ -12,10 +16,11 @@ CLAUDE.md
 /coverage
 
 # production
-/build
+/dist
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -31,13 +36,6 @@ yarn-error.log*
 
 # Other 
 *.lock
-node_modules/
-
-# opencode/codex
-AGENTS.md
-
-# claude
-CLAUDE.md
 
 # vscodium
 genesis.code-workspace

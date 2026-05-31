@@ -1,6 +1,14 @@
 import "../styles/FooterLinks.css";
 
-const ContactInfo = ({ icon, text, href, isLink, newTab = true }) => {
+type ContactInfoProps = {
+  icon: string;
+  text: string;
+  href: string;
+  isLink: boolean;
+  newTab?: boolean;
+};
+
+const ContactInfo = ({ icon, text, href, isLink, newTab = true } : ContactInfoProps) => {
   function handleEmailClick(text) {
     navigator.clipboard.writeText(text);
   }

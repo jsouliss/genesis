@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-d
 import Home from "./pages/Home";
 import Posts from "./pages/Posts";
 import About from "./pages/About"; /* Components */
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import Bg_Square_Top from "./svg/Bg_Square_Top";
 import Bg_Square_Bottom from "./svg/Bg_Square_Bottom";
 import Footer from "./components/Footer"; /* Styles*/

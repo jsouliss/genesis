@@ -11,7 +11,7 @@ const Post = () => {
   const currentPosts = mockPosts.slice(startIndex, endIndex);
   const totalPages = Math.ceil( mockPosts.length / POSTS_PER_PAGE);
 
-  const truncate = (text, maxLength) => {
+  const truncate = (text:string, maxLength:number) => {
     if(text.length <= maxLength) return text;
     return text.slice(0, maxLength) + "..."; 
   }

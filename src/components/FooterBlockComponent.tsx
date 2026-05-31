@@ -1,6 +1,10 @@
-import FooterBlock from "../svg/FooterBlock";
+import React  from 'react';
+import FooterBlock from "../svg/FooterBlock"
+type FooterBlockComponentProps = {
+  children: React.ReactNode;
+};
 
-const FooterBlockComponent = ({ children }) => {
+const FooterBlockComponent = ({ children } : FooterBlockComponentProps) => {
   return (
     <div className={"footer-block"}>
       <FooterBlock />

@@ -9,7 +9,7 @@ type ContactInfoProps = {
 };
 
 const ContactInfo = ({ icon, text, href, isLink, newTab = true } : ContactInfoProps) => {
-  function handleEmailClick(text) {
+  function handleEmailClick(text:string ) {
     navigator.clipboard.writeText(text);
   }
 

@@ -1,5 +1,5 @@
-import BoxBody from "../assets/body/BoxBody.svg";
-import BoxHeader from "../assets/body/BoxHeader.svg";
+import BoxBody from "../assets/body/BoxBody.svg?react";
+import BoxHeader from "../assets/body/BoxHeader.svg?react";
 import "../styles/FeaturedPostContent.css";
 
 const FeaturedPostContent = () => {

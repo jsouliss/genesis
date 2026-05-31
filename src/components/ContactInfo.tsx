@@ -3,8 +3,8 @@ import "../styles/FooterLinks.css";
 type ContactInfoProps = {
   icon: string;
   text: string;
-  href: string;
-  isLink: boolean;
+  href?: string;
+  isLink?: boolean;
   newTab?: boolean;
 };
 

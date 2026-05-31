@@ -39,7 +39,7 @@ function App() {
         <div className="bg-square-bottom">
           <Bg_Square_Bottom />
         </div>
-        <Footer classname={"footer"} />
+        <Footer />
       </Router>
     </div>
   );

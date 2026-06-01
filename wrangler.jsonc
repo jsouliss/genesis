@@ -1,23 +1,31 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "genesis",
-  // Set this to today's date
-  "compatibility_date": "2026-05-30",
-  "main": "src/worker/index.ts",
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
-  },
-  "workers_dev": false,
-  "routes": [
-    {
-      "pattern": "www.gsoulis.blog",
-      "custom_domain": true
-    },
-    {
-      "pattern": "gsoulis.blog",
-      "custom_domain": true
-    }
-  ]
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "genesis",
+	// Set this to today's date
+	"compatibility_date": "2026-05-30",
+	"main": "src/worker/index.ts",
+	"assets": {
+		"directory": "./dist",
+		"not_found_handling": "single-page-application",
+		"run_worker_first": [
+			"/api/*"
+		]
+	},
+	"workers_dev": false,
+	"routes": [
+		{
+			"pattern": "www.gsoulis.blog",
+			"custom_domain": true
+		},
+		{
+			"pattern": "gsoulis.blog",
+			"custom_domain": true
+		}
+	],
+	"hyperdrive": [
+		{
+			"binding": "HYPERDRIVE",
+			"id": "dfcb0e534dd34496a93f9ec04b712329"
+		}
+	]
 }

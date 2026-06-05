@@ -1,0 +1,962 @@
+{
+  "ok": true,
+  "frames_root": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames",
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19495,
+          "bbox": [
+            18,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 219
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19490,
+          "bbox": [
+            18,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 244
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21630,
+          "bbox": [
+            11,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 237
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19278,
+          "bbox": [
+            18,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21099,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 231
+        },
+        {
+          "index": 5,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19643,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 240
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19481,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 334
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19133,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 336
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19445,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 424
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19453,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 345
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19325,
+          "bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 373
+        },
+        {
+          "index": 5,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19725,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 378
+        },
+        {
+          "index": 6,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18944,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 391
+        },
+        {
+          "index": 7,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19276,
+          "bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 377
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19276,
+          "bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 377
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18944,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 391
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19725,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 378
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19325,
+          "bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 373
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19453,
+          "bbox": [
+            19,
+            5,
+            173,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 345
+        },
+        {
+          "index": 5,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19445,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 424
+        },
+        {
+          "index": 6,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19133,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 336
+        },
+        {
+          "index": 7,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19481,
+          "bbox": [
+            20,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 334
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20351,
+          "bbox": [
+            11,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19652,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19685,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 151
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20270,
+          "bbox": [
+            11,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 169
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23582,
+          "bbox": [
+            5,
+            9,
+            187,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 270
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19443,
+          "bbox": [
+            16,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 176
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20298,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 201
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20308,
+          "bbox": [
+            16,
+            5,
+            175,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 267
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20126,
+          "bbox": [
+            17,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 257
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18542,
+          "bbox": [
+            18,
+            5,
+            174,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 364
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18181,
+          "bbox": [
+            26,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 258
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20008,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 344
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22825,
+          "bbox": [
+            10,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 368
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15450,
+          "bbox": [
+            5,
+            44,
+            187,
+            163
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 204
+        },
+        {
+          "index": 5,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23251,
+          "bbox": [
+            5,
+            8,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 345
+        },
+        {
+          "index": 6,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22353,
+          "bbox": [
+            13,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 365
+        },
+        {
+          "index": 7,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19496,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 293
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19106,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 211
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21393,
+          "bbox": [
+            12,
+            5,
+            180,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 330
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19058,
+          "bbox": [
+            22,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 223
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19026,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 234
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19443,
+          "bbox": [
+            23,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 252
+        },
+        {
+          "index": 5,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18874,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 264
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17397,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 314
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16867,
+          "bbox": [
+            27,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 222
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16982,
+          "bbox": [
+            28,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 206
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16787,
+          "bbox": [
+            29,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 168
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18015,
+          "bbox": [
+            26,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 268
+        },
+        {
+          "index": 5,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16600,
+          "bbox": [
+            29,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 235
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18207,
+          "bbox": [
+            27,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 1,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17950,
+          "bbox": [
+            28,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 176
+        },
+        {
+          "index": 2,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17995,
+          "bbox": [
+            29,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 139
+        },
+        {
+          "index": 3,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17681,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 160
+        },
+        {
+          "index": 4,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17557,
+          "bbox": [
+            30,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        },
+        {
+          "index": 5,
+          "file": "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19020,
+          "bbox": [
+            23,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 239
+        }
+      ]
+    }
+  ]
+}

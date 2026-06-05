@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/04.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/idle/05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-right",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/04.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/05.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/06.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-right/07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-left",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/04.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/05.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/06.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running-left/07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waving",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waving/03.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "jumping",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/jumping/04.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "failed",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/04.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/05.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/06.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/failed/07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waiting",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/04.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/waiting/05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/04.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/running/05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "review",
+      "frames": [
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/00.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/01.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/02.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/03.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/04.png",
+        "/Users/jerrysolis/Projects/WebStormProjects/genesis/output/hatch-pet/leaf/frames/review/05.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

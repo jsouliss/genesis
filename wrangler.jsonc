@@ -2,7 +2,6 @@
 	"$schema": "./node_modules/wrangler/config-schema.json",
 	"name": "genesis",
 	// Set this to today's date
-	"compatibility_date": "2026-05-30",
 	"main": "src/worker/index.ts",
 	"assets": {
 		"directory": "./dist",
@@ -22,6 +21,12 @@
 			"custom_domain": true
 		}
 	],
+	// required for database drivers to function
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	// Set this to today's date
+	"compatibility_date": "2026-06-05",
 	"hyperdrive": [
 		{
 			"binding": "HYPERDRIVE",

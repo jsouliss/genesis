@@ -41,5 +41,4 @@ app.onError((err, c) => {
     return c.text('Custom Error Message', 500)
 })
 
-
 export default app

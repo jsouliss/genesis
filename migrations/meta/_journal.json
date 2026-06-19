@@ -8,6 +8,13 @@
       "when": 1780640315437,
       "tag": "0000_easy_snowbird",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1781702840214,
+      "tag": "0001_wooden_beast",
+      "breakpoints": true
     }
   ]
 }

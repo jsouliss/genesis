@@ -11,8 +11,8 @@
 
 [![genesis.blog uptime badge](https://uptime.betterstack.com/status-badges/v2/monitor/2atqo.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
-- This project involves the development of my personal website https://gsoulis.blog, which is hosted on an AWS EC2
-  instance.
+- This project involves the development of my personal website https://gsoulis.blog, which is hosted on Cloudflare using
+  Cloudflare Workers.
 
 ---
 

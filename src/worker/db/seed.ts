@@ -1,5 +1,6 @@
 import { config } from "dotenv";
 import { drizzle } from "drizzle-orm/node-postgres";
+import { sql } from "drizzle-orm";
 import { postTable } from "./schema.ts";
 
 config({ path: ".env" });
@@ -33,7 +34,7 @@ async function main() {
       image: "https://picsum.photos/400/300", // Placeholder for now
     },
   ];
-  await db.delete(postTable).execute();
+  await db.execute(sql`TRUNCATE posts RESTART IDENTITY;`);
   await db.insert(postTable).values(posts);
   console.log("New post created!");
 }

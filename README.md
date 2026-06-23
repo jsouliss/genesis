@@ -11,33 +11,43 @@
 
 [![genesis.blog uptime badge](https://uptime.betterstack.com/status-badges/v2/monitor/2atqo.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
+## Overview
+
 - This project involves the development of my personal website https://gsoulis.blog, which is hosted on Cloudflare using
   Cloudflare Workers.
 
----
+## Tech Stack
 
-- The EC2 instance is fronted by Cloudflare, which provides DNS management, reverse proxy, CDN, and DDoS protection.
+- **Frontend**: <the UI/build tools we used>
+- **Backend**:<the API framework + runtime>
+- **Database**: <the DB>
+-
 
-- NGINX serves the static React application on the backend.
+### Infrastructure
 
-- Certbot has been configured to enable HTTPS rather than just HTTP for secure connections.
+- Cloudflare provides DNS management, reverse proxy, CDN, and DDoS protection.
 
----
+- The Cloudflare Worker serves the static React application.
 
-- Lambda functions and CloudWatch events have been implemented to automate the server shutdown and bootup process.
+### Hosting
 
-    - This will occur daily from 12 PM PDT to 7 AM PDT to save costs.
+- Cloudflare handles the SSL certificates, which are automated, with no setup needed.
 
----
+- The Cloudflare Worker hosts the static site which is accessible 24/7. This no longer requires automated server
+  shutdowns and power-ons as a result.
+
+## Purpose
 
 - The site will feature all projects I have worked on that I have not yet posted or shared, as well as projects I am
   currently working on.
+
+## Contact
 
 - For additional information, please contact me at **jsoulis@pm.me**
 
 - Thank you, and I hope you enjoy your stay :D
 
----
+## Preview
 
 - Home page preview:
 

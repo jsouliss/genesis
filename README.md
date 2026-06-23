@@ -18,10 +18,9 @@
 
 ## Tech Stack
 
-- **Frontend**: <the UI/build tools we used>
-- **Backend**:<the API framework + runtime>
-- **Database**: <the DB>
--
+- **Frontend**: The UI build tools we used consist of Vite, and React for the frontend.
+- **Backend**:The API framework consists of Hono running on the Cloudflare Worker, `/api/posts`.
+- **Database**: The Neon Postgres DB via Drizzle ORM, accessed through Cloudflare Hyperdrive.
 
 ### Infrastructure
 

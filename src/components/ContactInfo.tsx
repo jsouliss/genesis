@@ -8,8 +8,14 @@ type ContactInfoProps = {
   newTab?: boolean;
 };
 
-const ContactInfo = ({ icon, text, href, isLink, newTab = true } : ContactInfoProps) => {
-  function handleEmailClick(text:string ) {
+const ContactInfo = ({
+  icon,
+  text,
+  href,
+  isLink,
+  newTab = true,
+}: ContactInfoProps) => {
+  function handleEmailClick(text: string) {
     navigator.clipboard.writeText(text);
   }
 

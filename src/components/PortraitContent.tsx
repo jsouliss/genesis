@@ -10,9 +10,7 @@ const PortraitContent = () => {
         <BG_Portrait />
         <img
           className="portrait-img"
-          src={
-            "https://assets.gsoulis.blog/Jerry_Solis.jpeg"
-          }
+          src={"https://assets.gsoulis.blog/Jerry_Solis.jpeg"}
           alt={"Gerardo Solis Portrait"}
         />
       </div>

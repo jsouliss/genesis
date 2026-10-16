@@ -1,80 +1,83 @@
 /************* Post ****************/
 
 @keyframes float {
-    0% { /* Original position */
-        transform: translate(0px);
-    }
-    50% { /* Move box up 20px */
-        transform: translateY(-20px);
-    }
-    100% { /* Back to original position */
-        transform: translateY(0px);
-    }
+  0% {
+    /* Original position */
+    transform: translate(0px);
+  }
+  50% {
+    /* Move box up 20px */
+    transform: translateY(-20px);
+  }
+  100% {
+    /* Back to original position */
+    transform: translateY(0px);
+  }
 }
 
 .featured-post-container {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    top: -85px;
-    gap: 50px;
-    z-index: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: -85px;
+  gap: 50px;
+  z-index: 1;
 }
 
 .featured-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    animation: float 6s ease-in-out infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: float 6s ease-in-out infinite;
 }
 
 .featured-post:hover,
 .featured-post:hover ~ .featured-post,
 .featured-post:has(~ .featured-post:hover) {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .featured-post-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  z-index: 2;
 }
 
 .featured-post-title {
-    position: absolute;
-    font-family: "Outfit", sans-serif;
-    font-size: 20px;
-    color: white;
+  position: absolute;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 @media (max-width: 900px) {
-    .featured-post-container {
-        display: flex;
-        position: relative;
-        align-items: center;
-        flex-direction: column;
-        gap: 10px;
-    }
+  .featured-post-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .featured-post {
-        position: relative;
-        animation: none
-    }
+  .featured-post {
+    position: relative;
+    animation: none;
+  }
 
-    .featured-post-header {
-        position: absolute;
-        flex-direction: column;
-        align-items: center;
-        gap: 210px;
-        top: 0;
-    }
+  .featured-post-header {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    gap: 210px;
+    top: 0;
+  }
 
-    .featured-post-title {
-        position: absolute;
-    }
+  .featured-post-title {
+    position: absolute;
+  }
 }

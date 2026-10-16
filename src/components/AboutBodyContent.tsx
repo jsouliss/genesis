@@ -45,11 +45,7 @@ const AboutBodyContent = () => {
           </a>
         </li>
         <li>
-          <a
-            href={
-              "https://assets.gsoulis.blog/CRTO_Course_Cert.pdf"
-            }
-          >
+          <a href={"https://assets.gsoulis.blog/CRTO_Course_Cert.pdf"}>
             Certified Red Team Ops Certificate of Course Completion (Zero-Point
             Security)
           </a>
@@ -73,9 +69,7 @@ const AboutBodyContent = () => {
           </a>
         </li>
         <li>
-          <a
-            href={"https://assets.gsoulis.blog/Dante.pdf"}
-          >
+          <a href={"https://assets.gsoulis.blog/Dante.pdf"}>
             HackTheBox Pro Labs - Dante
           </a>
         </li>
@@ -101,7 +95,9 @@ const AboutBodyContent = () => {
 
       <br />
 
-      <h2 data-aos={"fade-up"}><span className="red-text">Competitions</span></h2>
+      <h2 data-aos={"fade-up"}>
+        <span className="red-text">Competitions</span>
+      </h2>
       <ul className={"comp-list"} data-aos={"fade-up"} data-aos-delay={"100"}>
         <li>
           <span>
@@ -111,11 +107,7 @@ const AboutBodyContent = () => {
           <span>2024</span>
         </li>
         <li>
-          <a
-            href={
-              "https://assets.gsoulis.blog/ITC_Awards_2024.png"
-            }
-          >
+          <a href={"https://assets.gsoulis.blog/ITC_Awards_2024.png"}>
             <span>
               <strong>Information Technology Competition</strong> - Team
               Captain, 1st Place
@@ -124,11 +116,7 @@ const AboutBodyContent = () => {
           <span>2024</span>
         </li>
         <li>
-          <a
-            href={
-              "https://assets.gsoulis.blog/NCAE_2024_Scoreboard.png"
-            }
-          >
+          <a href={"https://assets.gsoulis.blog/NCAE_2024_Scoreboard.png"}>
             <span>
               <strong>NCAE-C</strong> - Team Captain, Nationals 2nd Place
             </span>
@@ -152,8 +140,16 @@ const AboutBodyContent = () => {
 
       <br />
 
-      <div className={"badge-wrapper"} data-aos={"fade-up"} data-aos-delay={"200"}>
-          <img className="badge-embed" src="https://www.hackthebox.com/badge/image/859671" alt="Hack The Box"/>
+      <div
+        className={"badge-wrapper"}
+        data-aos={"fade-up"}
+        data-aos-delay={"200"}
+      >
+        <img
+          className="badge-embed"
+          src="https://www.hackthebox.com/badge/image/859671"
+          alt="Hack The Box"
+        />
       </div>
 
       <br />

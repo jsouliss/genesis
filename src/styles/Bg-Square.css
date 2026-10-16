@@ -1,33 +1,33 @@
 .bg-square-top {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: fit-content;
-    height: fit-content;
-    overflow: hidden;
-    pointer-events: none;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  pointer-events: none;
 }
 
 .bg-square-bottom {
-    display: flex;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    width: fit-content;
-    height: fit-content;
-    overflow: hidden;
-    pointer-events: none;
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  pointer-events: none;
 }
 
 @media (max-width: 1100px) {
-    .bg-square-top {
-        display: none;
-    }
+  .bg-square-top {
+    display: none;
+  }
 
-    .bg-square-bottom {
-        display: none;
-    }
+  .bg-square-bottom {
+    display: none;
+  }
 }

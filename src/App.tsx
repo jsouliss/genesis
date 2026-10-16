@@ -1,5 +1,10 @@
 /* Routes */
-import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import Posts from "./pages/Posts";
 import About from "./pages/About"; /* Components */

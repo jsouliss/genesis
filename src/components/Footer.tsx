@@ -24,9 +24,7 @@ const Footer = () => {
             <ContactInfo
               icon={fileIcon}
               text="Resume"
-              href={
-                "https://assets.gsoulis.blog/Gerardo_S_Resume_Redacted.pdf"
-              }
+              href={"https://assets.gsoulis.blog/Gerardo_S_Resume_Redacted.pdf"}
               isLink
             />
             <ContactInfo
@@ -38,7 +36,7 @@ const Footer = () => {
             />
             <ContactInfo icon={mailIcon} text="jsoulis@pm.me" />
           </FooterBlockComponent>
-          
+
           <FooterBlockComponent>
             <FooterLinks
               href="https://x.com/jsoulisss"

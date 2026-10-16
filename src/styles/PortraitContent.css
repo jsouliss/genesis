@@ -1,44 +1,44 @@
 /************* Portrait ****************/
 .portrait-container {
-    padding: 20px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    transform: translate(0px, -150px);
-    z-index: 2;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  transform: translate(0px, -150px);
+  z-index: 2;
 }
 
 .portrait-img {
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    border-radius: 10%;
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 10%;
 }
 
 .name-tag {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -150px;
-    z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -150px;
+  z-index: 1;
 }
 
 .name-tag-content {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  text-align: center;
 }
 
 /************* Name Tag ****************/
 
 .name-tag-text {
-    color: white;
-    font-family: "Outfit", sans-serif;
-    font-size: 30px;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 30px;
 }
 
 /*

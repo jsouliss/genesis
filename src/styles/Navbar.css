@@ -1,140 +1,139 @@
 /* --------------- Navbar --------------- */
 .navbar {
-    background-image: url(/src/assets/navbar/NavbarContainer.svg);
-    position: fixed;
-    height: 63px;
-    display: flex;
-    width: 100%;
-    padding-left: 50px;
-    align-items: center;
-    box-sizing: border-box;
-    z-index: 2;
-    overflow: hidden;
+  background-image: url(/src/assets/navbar/NavbarContainer.svg);
+  position: fixed;
+  height: 63px;
+  display: flex;
+  width: 100%;
+  padding-left: 50px;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 2;
+  overflow: hidden;
 }
 
 @media (max-width: 1100px) {
-    .navbar {
-        width: 100%;
-        white-space: nowrap;
-        padding-left: 50px;
-    }
+  .navbar {
+    width: 100%;
+    white-space: nowrap;
+    padding-left: 50px;
+  }
 
-    .navbar ul {
-        align-items: center;
-        justify-content: flex-start;
-        overflow-x: auto;
-    }
+  .navbar ul {
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
 
-    .navbar ul::-webkit-scrollbar {
-        display: none;
-    }
+  .navbar ul::-webkit-scrollbar {
+    display: none;
+  }
 
-    .signin-container {
-        display: none;
-        position: relative;
-    }
+  .signin-container {
+    display: none;
+    position: relative;
+  }
 }
 
 .navbar ul {
-    list-style-type: none;
-    display: flex;
-    margin-left: auto;
-    gap: 20px;
-    justify-content: space-between;
-    padding-right: 50px;
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+  justify-content: space-between;
+  padding-right: 50px;
 }
 
 .navbar-button {
-    all: unset;
-    background-color: #F1FA8C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 76px;
-    height: 31px;
-    border-radius: 16px;
-    z-index: 1;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.2s ease; /* Smooth transition for all changes */
+  all: unset;
+  background-color: #f1fa8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 31px;
+  border-radius: 16px;
+  z-index: 1;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease; /* Smooth transition for all changes */
 }
 
 .navbar-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
 }
 
 .navbar-button:active {
-    transform: scale(0.95);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-
 .navbar-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 75px;
-    height: 31px;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 75px;
+  height: 31px;
+  text-decoration: none;
 }
 
 .navbar-text {
-    z-index: 2;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    position: relative;
-    font-family: "Outfit", sans-serif;
+  z-index: 2;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  font-family: "Outfit", sans-serif;
 }
 
 /* --------------- Logo --------------- */
 
 .logo {
-    background-image: url(/src/assets/navbar/logo.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 55px;
-    height: 55px;
-    flex-shrink: 0;
+  background-image: url(/src/assets/navbar/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
 }
 
 /* --------------- Search Button --------------- */
 
 .search-icon {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
 
 /* --------------- Sign In Button --------------- */
 
 .signin-container {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .signin-text {
-    position: absolute;
-    z-index: 2;
-    color: black;
-    font-size: 30px;
-    font-family: "Olde English", sans-serif;
-    user-select: none;
+  position: absolute;
+  z-index: 2;
+  color: black;
+  font-size: 30px;
+  font-family: "Olde English", sans-serif;
+  user-select: none;
 }
 
 .signin-button {
-    background-image: url("/src/assets/navbar/signInButton.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 80px;
-    height: 63px;
-    z-index: 1;
-    border: none;
+  background-image: url("/src/assets/navbar/signInButton.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 63px;
+  z-index: 1;
+  border: none;
 }

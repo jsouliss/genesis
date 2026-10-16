@@ -28,7 +28,12 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Router>
+      <Router
+        future={{
+          v7_relativeSplatPath: true,
+          v7_startTransition: true,
+        }}
+      >
         <Navbar />
         <div className="bg-square-top">
           <Bg_Square_Top />

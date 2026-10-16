@@ -4,7 +4,7 @@ import {
   Navigate,
   Route,
   Routes,
-} from "react-router-dom";
+} from "react-router";
 import Home from "./pages/Home";
 import Posts from "./pages/Posts";
 import About from "./pages/About"; /* Components */
@@ -28,12 +28,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Router
-        future={{
-          v7_relativeSplatPath: true,
-          v7_startTransition: true,
-        }}
-      >
+      <Router>
         <Navbar />
         <div className="bg-square-top">
           <Bg_Square_Top />
